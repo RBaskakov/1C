@@ -18,6 +18,6 @@
 
 **3. Обработка «ЭкспортИмпортXML»** предназначена для 
 
-[Скачать обработку](https://github.com/RBaskakov/1C/ExportImport)
+[Скачать обработку](https://github.com/RBaskakov/1C/blob/master/ExportImport/ЭкспортИмпортXML.epf)
 
 [Скачать инструкцию](https://github.com/RBaskakov/1C/ExportImport)

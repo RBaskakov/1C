@@ -20,8 +20,8 @@
 
 [Скачать обработку](https://github.com/RBaskakov/1C/blob/master/ExportImport/ЭкспортИмпортXML.epf)
 
-[Скачать инструкцию](https://github.com/RBaskakov/1C/ExportImport)
+[Скачать инструкцию](https://github.com/RBaskakov/1C/blob/master/ExportImport/Инструкия для Экспорт Импорт XML.pdf)
 
 **Использование данных конфигураций в любых целях, кроме ознакомительных, запрещено**
 
-©Баскаков Роман Анатольевич
+©Баскаков Роман Анатольевич, roman_box@mail.ru

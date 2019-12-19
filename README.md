@@ -14,13 +14,13 @@
 
 [Скачать обработку](https://github.com/RBaskakov/1C/blob/master/ExportImport/ЭкспортИмпортТекст.epf)
 
-[Скачать инструкцию](https://github.com/RBaskakov/1C/ExportImport)
+[Скачать инструкцию](https://github.com/RBaskakov/1C/blob/master/ExportImport/ИнструкцияДляЭкспортИмпортТекст.pdf)
 
 **3. Обработка «ЭкспортИмпортXML»** предназначена для 
 
 [Скачать обработку](https://github.com/RBaskakov/1C/blob/master/ExportImport/ЭкспортИмпортXML.epf)
 
-[Скачать инструкцию](https://github.com/RBaskakov/1C/blob/master/ExportImport/Инструкия для Экспорт Импорт XML.pdf)
+[Скачать инструкцию](https://github.com/RBaskakov/1C/blob/master/ExportImport/ИнструкияДляЭкспортИмпортXML.pdf)
 
 **Использование данных разработок в любых целях, кроме ознакомительных, запрещено**
 

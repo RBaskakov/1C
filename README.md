@@ -26,7 +26,7 @@
 
 **Смотрите также:**
 
-[Программа для учёта медицинских услуг с открытым кодом](https://github.com/RBaskakov/UchetMU)
+[Программа для учёта медицинских услуг](https://github.com/RBaskakov/UchetMU)
 
 [Программа для расчёта строительных конструкций СтройРасчёты](https://github.com/RBaskakov/Stroy)
 

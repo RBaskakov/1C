@@ -6,7 +6,7 @@
   - Подано и оплачено ПУ.
   - Служебная записка за премирование с выводом сумм премий за ПУ в разрезе сотрудников и возможностью сохранения документа в формате Excel.
   
-[Скачать информационную базу](https://github.com/RBaskakov/1C/blob/master/UchetPU/УчетПУ.dt)
+[Скачать информационную базу](https://github.com/RBaskakov/1C/blob/master/UchetPU/УчётПУ.dt)
 
 [Скачать инструкцию](https://github.com/RBaskakov/1C/blob/master/UchetPU/ИнструкцияДляУчётПУ.pdf)
 

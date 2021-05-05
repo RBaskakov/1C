@@ -1,1 +1,1161 @@
 @@@@@Начало_файла:\ConfigDumpInfo.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.7">
+	<ConfigVersions>
+		<Metadata name="Configuration.Пустая" id="963a267f-12e7-4305-9f5a-6615e9f80e1f" configVersion="ad6f421e05679e49a945efd9adb6e3cd00000000"/>
+		<Metadata name="Configuration.Пустая.ParentConfigurations" id="14acebbe-502b-4875-a542-cd77ffb53978.4" configVersion="c427ec0a330d1b42b15e091bfd0f212700000000"/>
+		<Metadata name="DataProcessor.ЭкспортИмпортТекст" id="c688d0aa-2fb3-49d7-a0f4-136d4d261521" configVersion="dcc40fd6b2b7be45880a9e30ac06f5ab00000000"/>
+		<Metadata name="DataProcessor.ЭкспортИмпортТекст.Form.Форма" id="3efdd764-4162-45f5-8674-aeb911825834" configVersion="66a1bedbdcb2ae49aae36d96d7d5ab0200000000"/>
+		<Metadata name="DataProcessor.ЭкспортИмпортТекст.Form.Форма.Form" id="3efdd764-4162-45f5-8674-aeb911825834.0" configVersion="44453357ed53b74ca3a848bf50f69c4800000000"/>
+		<Metadata name="Language.Русский" id="8ba80daa-353c-4f0f-9961-8e1efc75815e" configVersion="48fcda669dffad46ac51f4da997284e600000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
+@@@@@Конец_файла:\ConfigDumpInfo.xml
+@@@@@Начало_файла:\Configuration.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Configuration uuid="963a267f-12e7-4305-9f5a-6615e9f80e1f">
+		<InternalInfo>
+			<xr:ContainedObject>
+				<xr:ClassId>9cd510cd-abfc-11d4-9434-004095e12fc7</xr:ClassId>
+				<xr:ObjectId>14acebbe-502b-4875-a542-cd77ffb53978</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>9fcd25a0-4822-11d4-9414-008048da11f9</xr:ClassId>
+				<xr:ObjectId>7773d9ac-6655-4030-b888-0475f42e7d80</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>e3687481-0a87-462c-a166-9f34594f9bba</xr:ClassId>
+				<xr:ObjectId>c0649c78-beca-42d6-9a6d-5dc93b5dd231</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>9de14907-ec23-4a07-96f0-85521cb6b53b</xr:ClassId>
+				<xr:ObjectId>2dcc229c-1da2-462e-af72-88095549594c</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>51f2d5d8-ea4d-4064-8892-82951750031e</xr:ClassId>
+				<xr:ObjectId>294766c3-fc86-463e-b0f5-1d02080d0ae5</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
+				<xr:ObjectId>03ecaae2-9eab-4282-8f2f-5a4f26aac120</xr:ObjectId>
+			</xr:ContainedObject>
+		</InternalInfo>
+		<Properties>
+			<Name>Пустая</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пустая</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<NamePrefix/>
+			<ConfigurationExtensionCompatibilityMode>Version8_3_13</ConfigurationExtensionCompatibilityMode>
+			<DefaultRunMode>ManagedApplication</DefaultRunMode>
+			<UsePurposes>
+				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
+			</UsePurposes>
+			<ScriptVariant>Russian</ScriptVariant>
+			<DefaultRoles/>
+			<Vendor>©Баскаков Роман Анатольевич, rbsoftware.narod.ru</Vendor>
+			<Version>1.0</Version>
+			<UpdateCatalogAddress/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
+			<UseOrdinaryFormInManagedApplication>false</UseOrdinaryFormInManagedApplication>
+			<AdditionalFullTextSearchDictionaries/>
+			<CommonSettingsStorage/>
+			<ReportsUserSettingsStorage/>
+			<ReportsVariantsStorage/>
+			<FormDataSettingsStorage/>
+			<DynamicListsUserSettingsStorage/>
+			<Content/>
+			<DefaultReportForm/>
+			<DefaultReportVariantForm/>
+			<DefaultReportSettingsForm/>
+			<DefaultDynamicListSettingsForm/>
+			<DefaultSearchForm/>
+			<DefaultDataHistoryChangeHistoryForm/>
+			<DefaultDataHistoryVersionDataForm/>
+			<DefaultDataHistoryVersionDifferencesForm/>
+			<RequiredMobileApplicationPermissions>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Multimedia</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Location</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Contacts</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Calendars</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Telephony</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">PushNotification</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">LocalNotification</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Print</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">InAppPurchases</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">Ads</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">BackgroundLocation</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">BackgroundAudioPlayback</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+				<v8:pair>
+					<v8:Key xsi:type="app:RequiredMobileApplicationPermissions">FileExchangeWithPersonalComputer</v8:Key>
+					<v8:Value xsi:type="xs:boolean">false</v8:Value>
+				</v8:pair>
+			</RequiredMobileApplicationPermissions>
+			<MainClientApplicationWindowMode>Normal</MainClientApplicationWindowMode>
+			<DefaultInterface/>
+			<DefaultStyle/>
+			<DefaultLanguage>Language.Русский</DefaultLanguage>
+			<BriefInformation/>
+			<DetailedInformation/>
+			<Copyright>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>©Баскаков Роман Анатольевич</v8:content>
+				</v8:item>
+			</Copyright>
+			<VendorInformationAddress>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>rbsoftware.narod.ru</v8:content>
+				</v8:item>
+			</VendorInformationAddress>
+			<ConfigurationInformationAddress>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>https://github.com/RBaskakov/1С</v8:content>
+				</v8:item>
+			</ConfigurationInformationAddress>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
+			<ModalityUseMode>DontUse</ModalityUseMode>
+			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
+			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
+			<CompatibilityMode>Version8_3_13</CompatibilityMode>
+			<DefaultConstantsForm/>
+		</Properties>
+		<ChildObjects>
+			<Language>Русский</Language>
+			<DataProcessor>ЭкспортИмпортТекст</DataProcessor>
+		</ChildObjects>
+	</Configuration>
+</MetaDataObject>
+@@@@@Конец_файла:\Configuration.xml
+@@@@@Начало_файла:\DataProcessors\ЭкспортИмпортТекст.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<DataProcessor uuid="c688d0aa-2fb3-49d7-a0f4-136d4d261521">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ЭкспортИмпортТекст" category="Object">
+				<xr:TypeId>747bbdc3-ddb2-4090-9047-f364eaabd6b0</xr:TypeId>
+				<xr:ValueId>481b8d0c-85a5-464f-b188-88a9f421c0db</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ЭкспортИмпортТекст" category="Manager">
+				<xr:TypeId>c9d4999d-2eb7-44e6-8b38-76d634eb24dc</xr:TypeId>
+				<xr:ValueId>9ba64d54-eef1-448d-9b55-603349d74e2b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЭкспортИмпортТекст</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Экспорт-импорт текст</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>©Баскаков Роман Анатольевич, rbsoftware.narod.ru</Comment>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm>DataProcessor.ЭкспортИмпортТекст.Form.Форма</DefaultForm>
+			<AuxiliaryForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Form>Форма</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>
+@@@@@Конец_файла:\DataProcessors\ЭкспортИмпортТекст.xml
+@@@@@Начало_файла:\DataProcessors\ЭкспортИмпортТекст\Forms\Форма.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Form uuid="3efdd764-4162-45f5-8674-aeb911825834">
+		<Properties>
+			<Name>Форма</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Форма</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<FormType>Managed</FormType>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<UsePurposes>
+				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
+				<v8:Value xsi:type="app:ApplicationUsePurpose">MobilePlatformApplication</v8:Value>
+			</UsePurposes>
+			<ExtendedPresentation/>
+		</Properties>
+	</Form>
+</MetaDataObject>
+@@@@@Конец_файла:\DataProcessors\ЭкспортИмпортТекст\Forms\Форма.xml
+@@@@@Начало_файла:\DataProcessors\ЭкспортИмпортТекст\Forms\Форма\Ext\Form.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Общие настройки</v8:content>
+		</v8:item>
+	</Title>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="Страницы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Page name="Выгрузка" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгрузка</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгрузка</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ВыгрузкаРасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<InputField name="ПапкаСФайламиКонфигурацииНаВходе" id="22">
+							<DataPath>ПапкаСФайламиКонфигурацииНаВходе</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Папка с файлами конфигурации на входе</v8:content>
+								</v8:item>
+							</Title>
+							<OpenButton>true</OpenButton>
+							<ContextMenu name="ПапкаСФайламиКонфигурацииНаВходеКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ПапкаСФайламиКонфигурацииНаВходеРасширеннаяПодсказка" id="24"/>
+							<Events>
+								<Event name="Opening">ПапкаСФайламиКонфигурацииНаВходеОткрытие</Event>
+							</Events>
+						</InputField>
+						<InputField name="ИмяФайлаКонфигурацииНаВыходе" id="14">
+							<DataPath>ИмяФайлаКонфигурацииНаВыходе</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Имя файла конфигурации (txt) на выходе</v8:content>
+								</v8:item>
+							</Title>
+							<OpenButton>true</OpenButton>
+							<ContextMenu name="ИмяФайлаКонфигурацииНаВыходеКонтекстноеМеню" id="15"/>
+							<ExtendedTooltip name="ИмяФайлаКонфигурацииНаВыходеРасширеннаяПодсказка" id="16"/>
+							<Events>
+								<Event name="Opening">ИмяФайлаВыгрузкиОткрытие</Event>
+							</Events>
+						</InputField>
+						<Button name="СформироватьФайл" id="17">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.СформироватьФайлКонфигурации</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сформировать файл конфигурации (txt)</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="СформироватьФайлРасширеннаяПодсказка" id="18"/>
+						</Button>
+					</ChildItems>
+				</Page>
+				<Page name="Загрузка" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Загрузка</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Загрузка</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ЗагрузкаРасширеннаяПодсказка" id="6"/>
+					<ChildItems>
+						<InputField name="ИмяФайлаКонфигурацииНаВходе" id="11">
+							<DataPath>ИмяФайлаКонфигурацииНаВходе</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Файл с описанием конфигурации (txt) на входе</v8:content>
+								</v8:item>
+							</Title>
+							<OpenButton>true</OpenButton>
+							<ContextMenu name="ИмяФайлаКонфигурацииНаВходеКонтекстноеМеню" id="12"/>
+							<ExtendedTooltip name="ИмяФайлаКонфигурацииНаВходеРасширеннаяПодсказка" id="13"/>
+							<Events>
+								<Event name="Opening">ИмяФайлаЗагрузкиОткрытие</Event>
+							</Events>
+						</InputField>
+						<InputField name="ПапкаСФайламиКонфигурацииНаВыходе" id="19">
+							<DataPath>ПапкаСФайламиКонфигурацииНаВыходе</DataPath>
+							<OpenButton>true</OpenButton>
+							<ContextMenu name="ПапкаСФайламиКонфигурацииНаВыходеКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ПапкаСФайламиКонфигурацииНаВыходеРасширеннаяПодсказка" id="21"/>
+							<Events>
+								<Event name="Opening">ПапкаДляФайловКонфигурацииОткрытие</Event>
+							</Events>
+						</InputField>
+						<Button name="СформироватьФайлы" id="7">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.СформироватьФайлы</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сформировать файлы конфигурации</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="СформироватьФайлыРасширеннаяПодсказка" id="8"/>
+						</Button>
+					</ChildItems>
+				</Page>
+				<Page name="ЗагрузкаИзИнтернета" id="25">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Загрузка из интернета</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Загрузка из интернета</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ЗагрузкаИзИнтернетаРасширеннаяПодсказка" id="26"/>
+					<ChildItems>
+						<InputField name="Сайт" id="35">
+							<DataPath>Сайт</DataPath>
+							<ContextMenu name="СайтКонтекстноеМеню" id="36"/>
+							<ExtendedTooltip name="СайтРасширеннаяПодсказка" id="37"/>
+						</InputField>
+						<InputField name="АдресФайлаВИнтернет" id="27">
+							<DataPath>АдресФайлаВИнтернет</DataPath>
+							<ContextMenu name="АдресФайлаВИнтернетКонтекстноеМеню" id="28"/>
+							<ExtendedTooltip name="АдресФайлаВИнтернетРасширеннаяПодсказка" id="29"/>
+						</InputField>
+						<InputField name="ПапкаСФайламиКонфигурацииНаВыходеИнтернет" id="30">
+							<DataPath>ПапкаСФайламиКонфигурацииНаВыходеИнтернет</DataPath>
+							<OpenButton>true</OpenButton>
+							<ContextMenu name="ПапкаСФайламиКонфигурацииНаВыходеИнтернетКонтекстноеМеню" id="31"/>
+							<ExtendedTooltip name="ПапкаСФайламиКонфигурацииНаВыходеИнтернетРасширеннаяПодсказка" id="32"/>
+						</InputField>
+						<Button name="СформироватьФайлыКонфигурацииИнтернет" id="33">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.СформироватьФайлыКонфигурацииИнтернет</CommandName>
+							<ExtendedTooltip name="СформироватьФайлыКонфигурацииИнтернетРасширеннаяПодсказка" id="34"/>
+						</Button>
+					</ChildItems>
+				</Page>
+				<Page name="ВыгрузкаВТекст" id="48">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгрузка в текст</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгрузка в текст</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ВыгрузкаВТекстРасширеннаяПодсказка" id="49"/>
+					<ChildItems>
+						<InputField name="ПапкаСФайламиКонфигурацииНаВходеТекст" id="53">
+							<DataPath>ПапкаСФайламиКонфигурацииНаВходеТекст</DataPath>
+							<OpenButton>true</OpenButton>
+							<ContextMenu name="ПапкаСФайламиКонфигурацииНаВходеТекстКонтекстноеМеню" id="54"/>
+							<ExtendedTooltip name="ПапкаСФайламиКонфигурацииНаВходеТекстРасширеннаяПодсказка" id="55"/>
+							<Events>
+								<Event name="Opening">ПапкаСФайламиКонфигурацииНаВходеТекстОткрытие</Event>
+							</Events>
+						</InputField>
+						<TextDocumentField name="ТекстКонфигурацииНаВыходе" id="61">
+							<DataPath>Текст</DataPath>
+							<ContextMenu name="ТекстКонфигурацииНаВыходеКонтекстноеМеню" id="62"/>
+							<ExtendedTooltip name="ТекстКонфигурацииНаВыходеРасширеннаяПодсказка" id="63"/>
+						</TextDocumentField>
+						<Button name="СформироватьТекстКонфигурации" id="56">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.СформироватьТекстКонфигурации</CommandName>
+							<ExtendedTooltip name="СформироватьТекстКонфигурацииРасширеннаяПодсказка" id="57"/>
+						</Button>
+					</ChildItems>
+				</Page>
+				<Page name="ЗагрузкаИзТекста" id="38">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Загрузка из текста</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Загрузка из текста</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ЗагрузкаИзТекстаРасширеннаяПодсказка" id="39"/>
+					<ChildItems>
+						<TextDocumentField name="Текст" id="58">
+							<DataPath>Текст</DataPath>
+							<ContextMenu name="ТекстКонтекстноеМеню" id="59"/>
+							<ExtendedTooltip name="ТекстРасширеннаяПодсказка" id="60"/>
+						</TextDocumentField>
+						<InputField name="ПапкаСФайламиКонфигурацииНаВыходеТекст" id="40">
+							<DataPath>ПапкаСФайламиКонфигурацииНаВыходеТекст</DataPath>
+							<OpenButton>true</OpenButton>
+							<ContextMenu name="ПапкаСФайламиКонфигурацииНаВыходеТекстКонтекстноеМеню" id="41"/>
+							<ExtendedTooltip name="ПапкаСФайламиКонфигурацииНаВыходеТекстРасширеннаяПодсказка" id="42"/>
+							<Events>
+								<Event name="Opening">ПапкаСФайламиКонфигурацииНаВыходеТекстОткрытие</Event>
+							</Events>
+						</InputField>
+						<Button name="СформироватьФайлыИзТекста" id="46">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.СформироватьФайлыИзТекста</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сформировать файлы</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="СформироватьФайлыИзТекстаРасширеннаяПодсказка" id="47"/>
+						</Button>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ЭкспортИмпортТекст</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ИмяФайлаКонфигурацииНаВыходе" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя файла конфигурации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИмяФайлаКонфигурацииНаВходе" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя файла конфигурации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ИмяФайла" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя файла</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Текст" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/txtedt">d5p1:TextDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекстФайла" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст файла</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/txtedt">d5p1:TextDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПапкаСФайламиКонфигурацииНаВыходе" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Папка с файлами конфигурации на выходе</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПапкаСФайламиКонфигурацииНаВходе" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Папка с файлами конфигурации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВремТекст" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Врем текст</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:d5p1="http://v8.1c.ru/8.1/data/txtedt">d5p1:TextDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="АдресФайлаВИнтернет" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес файла в интернет</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПапкаСФайламиКонфигурацииНаВыходеИнтернет" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Папка с файлами конфигурации на выходе</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Сайт" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сайт</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПапкаСФайламиКонфигурацииНаВыходеТекст" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Папка с файлами конфигурации на выходе</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПапкаСФайламиКонфигурацииНаВходеТекст" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Папка с файлами конфигурации на входе</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СформироватьФайлКонфигурации" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать файл конфигурации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать файл конфигурации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СформироватьФайлКонфигурации</Action>
+		</Command>
+		<Command name="СформироватьФайлы" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать файлы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать файлы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СформироватьФайлы</Action>
+		</Command>
+		<Command name="СформироватьФайлыКонфигурацииИнтернет" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать файлы конфигурации </v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать файлы конфигурации интернет</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СформироватьФайлыКонфигурацииИнтернет</Action>
+		</Command>
+		<Command name="СформироватьФайлыИзТекста" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать файлы из текста</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать файлы из текста</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СформироватьФайлыИзТекста</Action>
+		</Command>
+		<Command name="СформироватьТекстКонфигурации" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать текст конфигурации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать текст конфигурации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СформироватьТекстКонфигурации</Action>
+		</Command>
+	</Commands>
+</Form>
+@@@@@Конец_файла:\DataProcessors\ЭкспортИмпортТекст\Forms\Форма\Ext\Form.xml
+@@@@@Начало_файла:\DataProcessors\ЭкспортИмпортТекст\Forms\Форма\Ext\Form\Module.bsl
+&НаКлиенте Перем СтрНачалоФайла, СтрКонецФайла;
+
+&НаКлиенте
+Процедура СформироватьФайлы(Команда)
+	Если ПустаяСтрока(ИмяФайлаКонфигурацииНаВходе) Тогда
+		Сообщить("Не введено имя файла.");
+		Возврат;
+	КонецЕсли;
+	Если ПустаяСтрока(ПапкаСФайламиКонфигурацииНаВыходе) Тогда
+		Сообщить("Не введено имя папки для файлов конфигурации.");
+		Возврат;
+	КонецЕсли;
+	
+	Текст.Прочитать(ИмяФайлаКонфигурацииНаВходе);
+	СтрВсё = Текст.ПолучитьТекст();
+	СформироватьФайлыИзСтроки(СтрВсё,ПапкаСФайламиКонфигурацииНаВыходе);
+	//Пока СтрДлина(СтрВсё)>0 Цикл
+	//	Начало = Найти(СтрВсё, СтрНачалоФайла); 
+	//	Если Начало = 0 Тогда
+	//		Сообщить("Файлы конфигурации сформированы успешно.");
+	//		Возврат;			
+	//	КонецЕсли;
+	//	КонецФайла = Найти(СтрВсё, СтрКонецФайла); 
+	//
+	//	СтрФайл=Сред(СтрВсё,Начало,КонецФайла-Начало);
+	//	НачалоВторойСтроки = Найти(СтрФайл,Символы.ПС);
+	//	СтрИмяФайла = Лев(СтрФайл,НачалоВторойСтроки-1);
+	//	СтрИмяФайла=Прав(СтрИмяФайла,СтрДлина(СтрИмяФайла)- СтрДлина(СтрНачалоФайла + ":"));
+	//	СтрФайл=Сред(СтрФайл,НачалоВторойСтроки+1,КонецФайла-НачалоВторойСтроки-2);			
+	//	ТекстФайла.Очистить();
+	//	ТекстФайла.ДобавитьСтроку(СтрФайл);
+	//	
+	//	СоздатьВсеКаталоги(ПапкаСФайламиКонфигурацииНаВыходе + СтрИмяФайла);
+	//	ТекстФайла.Записать(ПапкаСФайламиКонфигурацииНаВыходе + СтрИмяФайла);
+	//	СтрВсё=Прав(СтрВсё,СтрДлина(СтрВсё)-КонецФайла-СтрДлина(СтрКонецФайла ));			
+	//КонецЦикла;
+	//Сообщить("Файлы конфигурации сформированы успешно.");
+
+КонецПроцедуры
+
+&НаКлиенте
+Процедура СформироватьФайлКонфигурации(Команда)
+	Если ПустаяСтрока(ПапкаСФайламиКонфигурацииНаВходе) Тогда
+		Сообщить("Не введено имя папки для файлов конфигурации.");
+		Возврат;
+	КонецЕсли;
+	Если ПустаяСтрока(ИмяФайлаКонфигурацииНаВыходе) Тогда
+		Сообщить("Не введено имя файла.");
+		Возврат;
+	КонецЕсли;
+	Если ПустаяСтрока(ИмяФайла) Тогда
+		Сообщить("Не введено имя файла.");
+	Иначе		
+		СформироватьТекстИзПапкиСФайлами(ПапкаСФайламиКонфигурацииНаВходе);
+		Текст.Записать(ИмяФайла);		
+	КонецЕсли;
+	Сообщить("Файл конфигурации сформирован успешно.");
+КонецПроцедуры
+
+&НаКлиенте
+Процедура СформироватьТекстИзПапкиСФайлами(ПапкаСФайламиКонфигурацииНаВходе)
+	Текст.Очистить();				
+	МассивНайденныхФайлов = НайтиФайлы(
+	    ПапкаСФайламиКонфигурацииНаВходе, // где искать
+    	"*", // маска поиска
+    	Истина // если Истина, то будет искать и в подкаталогах
+	);         
+	Для Каждого Файл Из МассивНайденныхФайлов Цикл			
+		Если Файл.ЭтоФайл() Тогда
+			Если ЭтоФайлБезСодержимогоПоИмениФайла(Файл.Имя) Тогда
+				Сообщить("Файл "+Файл.Имя+" не может быть преобразован в текст.");
+				Продолжить;
+			КонецЕсли;
+		КонецЕсли;
+	КонецЦикла;	
+	Для Каждого Файл Из МассивНайденныхФайлов Цикл			
+		Если Файл.ЭтоФайл() Тогда
+			ТекстФайла.Очистить();
+			ОтносительноеИмяФайла = СтрЗаменить(Файл.ПолноеИмя,ПапкаСФайламиКонфигурацииНаВходе,"");
+			Текст.ДобавитьСтроку(СтрНачалоФайла+":" + ОтносительноеИмяФайла);
+			Если Не ЭтоФайлБезСодержимогоПоИмениФайла(Файл.Имя) Тогда
+				ТекстФайла.Прочитать(Файл.ПолноеИмя);
+				ТекстИзФайла = ТекстФайла.ПолучитьТекст();
+				ТекстИзФайла = СокрЛП(ТекстИзФайла);
+				Если ТекстИзФайла<>"" Тогда
+					Текст.ДобавитьСтроку(ТекстИзФайла);
+				КонецЕсли;	
+			КонецЕсли;
+			Текст.ДобавитьСтроку(СтрКонецФайла+":" + ОтносительноеИмяФайла);							
+			//Текст.УстановитьТекст(
+			
+		КонецЕсли;
+	КонецЦикла;
+	
+КонецПроцедуры
+		
+&НаКлиенте
+Процедура ЗаписатьСтрокуВФайл(ПолноеИмяФайла, СтрокаДляЗаписи)
+	ЗаписьТекста = Новый ЗаписьТекста(ПолноеИмяФайла);
+	ЗаписьТекста.Записать(СтрокаДляЗаписи);
+	ЗаписьТекста.Закрыть();	
+КонецПроцедуры
+
+&НаКлиенте
+Функция ПрочитатьФайл(ПолноеИмяФайла)    // Протестировать
+	ЧтениеТекста = Новый ЧтениеТекста(ПолноеИмяФайла);
+	Стр = ЧтениеТекста.Прочитать();
+	ЧтениеТекста.Закрыть();	
+	Возврат Стр;	
+КонецФункции
+
+&НаКлиенте
+Процедура ИмяФайлаЗагрузкиОткрытие(Элемент, СтандартнаяОбработка)
+	ВыборФайла(СтандартнаяОбработка);
+КонецПроцедуры
+
+&НаКлиенте
+Процедура ИмяФайлаВыгрузкиОткрытие(Элемент, СтандартнаяОбработка)
+	ВыборФайла(СтандартнаяОбработка);
+КонецПроцедуры
+
+&НаКлиенте
+Процедура ВыборФайла(СтандартнаяОбработка) Экспорт
+	СтандартнаяОбработка = Ложь;
+	ЭтоВыгрузка = ?(Элементы.Страницы.ТекущаяСтраница.Имя="Выгрузка", Истина,Ложь);
+	РежимДиалога = ?(ЭтоВыгрузка, РежимДиалогаВыбораФайла.Сохранение, РежимДиалогаВыбораФайла.Открытие);
+	ДиалогВыбораФайла = Новый ДиалогВыбораФайла(РежимДиалога);
+	ДиалогВыбораФайла.ПроверятьСуществованиеФайла = Не ЭтоВыгрузка;
+	ДиалогВыбораФайла.МножественныйВыбор = Ложь;
+	ТекстЗаголовка = ?(ЭтоВыгрузка,"Задайте имя для файла описания конфигурации","Выберите файл описания конфигурации");
+	ДиалогВыбораФайла.Заголовок = ТекстЗаголовка;
+	
+	ДиалогВыбораФайла.Фильтр = "Текстовый файл(*.txt)|*.txt|Все файлы (*.*)|*.*";
+	Если ДиалогВыбораФайла.Выбрать() Тогда
+		ИмяФайла = ДиалогВыбораФайла.ПолноеИмяФайла;		
+		Если ЭтоВыгрузка Тогда
+			ИмяФайлаКонфигурацииНаВыходе = ИмяФайла;
+		Иначе
+			ИмяФайлаКонфигурацииНаВходе = ИмяФайла;
+		КонецЕсли;
+	КонецЕсли;
+	
+КонецПроцедуры
+
+&НаКлиенте
+Процедура ПапкаДляФайловКонфигурацииОткрытие(Элемент, СтандартнаяОбработка)
+	ПапкаСФайламиКонфигурацииНаВыходе = ИмяВыбранногоКаталога(СтандартнаяОбработка);
+КонецПроцедуры
+
+&НаКлиенте
+Процедура ПриОткрытии(Отказ)
+	// Для того чтобы процедура могла работать сама с собой
+	СтрНачалоФайла = "@"+"@"+"@"+"@"+"@"+"Начало_файла";
+	СтрКонецФайла = "@"+"@"+"@"+"@"+"@"+"Конец_файла";
+КонецПроцедуры
+
+&НаКлиенте
+Процедура ПапкаСФайламиКонфигурацииНаВходеОткрытие(Элемент, СтандартнаяОбработка)
+	ПапкаСФайламиКонфигурацииНаВходе = ИмяВыбранногоКаталога(СтандартнаяОбработка);
+КонецПроцедуры
+
+&НаКлиенте
+Функция РасширениеФайлаПоИмени(Знач ИмяФайла) Экспорт
+	ВремТекст = Новый ТекстовыйДокумент;
+	ВремТекст.УстановитьТекст(СтрЗаменить(ИмяФайла,".",Символы.ПС));
+	КолСтрок = ВремТекст.КоличествоСтрок();
+	//КолСтрок = СтрЧислоСтрок(ВремТекст);
+	
+	Если КолСтрок > 1 Тогда
+		Расш = ВремТекст.ПолучитьСтроку(КолСтрок);
+	Иначе
+		Расш = "";
+	КонецЕсли;
+	Возврат Расш;	
+КонецФункции
+
+&НаКлиенте
+Функция ЭтоФайлБезСодержимогоПоИмениФайла(Знач ИмяФайла) Экспорт
+	Расш = РасширениеФайлаПоИмени(ИмяФайла);
+	Возврат ЭтоФайлБезСодержимогоПоРасширениюФайла(Расш);
+КонецФункции
+
+&НаКлиенте
+Функция ИмяВыбранногоКаталога(СтандартнаяОбработка) Экспорт
+	
+	СтандартнаяОбработка = Ложь;
+	РежимДиалога = РежимДиалогаВыбораФайла.ВыборКаталога;
+	ДиалогВыбораФайла = Новый ДиалогВыбораФайла(РежимДиалога);
+	ДиалогВыбораФайла.МножественныйВыбор = Ложь;
+	ДиалогВыбораФайла.Заголовок = "Выберите каталог";
+	
+	//ДиалогВыбораФайла.Фильтр = "Текстовый файл(*.txt)|*.txt|Все файлы (*.*)|*.*";
+	Если ДиалогВыбораФайла.Выбрать() Тогда
+		ИмяКаталога = ДиалогВыбораФайла.Каталог;				
+	КонецЕсли;
+	Возврат ИмяКаталога;
+КонецФункции
+
+Процедура СоздатьВсеКаталоги(Знач ПутьКФайлу) Экспорт
+	Каталоги = Новый Массив(20);
+	Каталоги[0] = ПутьКФайлу;
+	Счетчик = 0;
+	Пока Каталоги[Счетчик]<>"" Цикл
+		Каталоги[Счетчик+1] = ПолучитьРодительскийКаталог(Каталоги[Счетчик]);
+		Счетчик = Счетчик + 1;		
+	КонецЦикла;
+	Счетчик = Счетчик - 1;		
+	Пока Счетчик > 0 Цикл
+		Каталог = Новый Файл(Каталоги[Счетчик]);
+		Если НЕ Каталог.Существует() Тогда
+			СоздатьКаталог(Каталоги[Счетчик]);
+		КонецЕсли;
+		Счетчик = Счетчик - 1;
+	КонецЦикла;
+	
+КонецПроцедуры
+
+Функция ПолучитьРодительскийКаталог(Знач Путь) Экспорт
+	Пока СтрДлина(Путь)>0 Цикл
+		Если Прав(Путь,2) = ":\" Тогда
+			Возврат "";
+		ИначеЕсли Прав(Путь,1) = "\" Тогда
+			Возврат Лев(Путь,СтрДлина(Путь)-1);			
+		Иначе 
+			Путь = Лев(Путь,СтрДлина(Путь)-1);
+		КонецЕсли;
+	КонецЦикла;
+	Возврат "";	
+КонецФункции
+
+&НаКлиенте
+Функция ИмяВыбранногоФайла(СтандартнаяОбработка,РасширениеФайла) Экспорт
+	
+	СтандартнаяОбработка = Ложь;
+	РежимДиалога = РежимДиалогаВыбораФайла.Открытие;
+	ДиалогВыбораФайла = Новый ДиалогВыбораФайла(РежимДиалога);
+	ДиалогВыбораФайла.МножественныйВыбор = Ложь;
+	ДиалогВыбораФайла.Заголовок = "Выберите файл";
+	
+	Если РасширениеФайла = "txt" Тогда
+		Фильтр = "Текстовый файл(*.txt)|*.txt|Все файлы (*.*)|*.*";
+	ИначеЕсли РасширениеФайла = "xml" Тогда
+		Фильтр = "Файл XML(*.xml)|*.xml|Все файлы (*.*)|*.*";
+	КонецЕсли;
+	ДиалогВыбораФайла.Фильтр = Фильтр;
+	Если ДиалогВыбораФайла.Выбрать() Тогда
+		ИмяФайла = ДиалогВыбораФайла.ПолноеИмяФайла;				
+	КонецЕсли;
+	Возврат ИмяФайла;
+КонецФункции
+
+&НаКлиенте
+Функция ЭтоФайлБезСодержимогоПоРасширениюФайла(Знач РасширениеФайла) Экспорт
+	Если РасширениеФайла = "" Тогда
+		Возврат Ложь;
+	КонецЕсли;
+	Поз = Найти("png bmp jpg jpeg tiff",РасширениеФайла);
+	Возврат (Поз>0);
+КонецФункции
+
+&НаКлиенте
+Процедура СформироватьФайлыКонфигурацииИнтернет(Команда)
+	//https://forum.infostart.ru/forum9/topic95190/
+	Если ПустаяСтрока(Сайт) Тогда
+		Сообщить("Не введено имя сайта.");
+		Возврат;
+	КонецЕсли;
+	Если ПустаяСтрока(АдресФайлаВИнтернет) Тогда
+		Сообщить("Не введен адрес файла в Интернет.");
+		Возврат;
+	КонецЕсли;
+	Если ПустаяСтрока(ПапкаСФайламиКонфигурацииНаВыходеИнтернет) Тогда
+		Сообщить("Не введено имя папки для файлов конфигурации.");
+		Возврат;
+	КонецЕсли;
+	//ИнтернетАдрес = "www.bezopasnost-shop.com";
+	//
+	//ИмяФайлаЗагрузки = "bezopasnost_product_price.xml";
+	
+	Каталог = КаталогДокументов();  //Каталог = КаталогВременныхФайлов();
+    
+	// Это другой вариант
+	
+	//Соединение = Новый HTTPСоединение(Сайт,443,,,,,Новый ЗащищенноеСоединениеOpenSSL());
+	//Сообщить(""+ТекущаяДата()+" "+Соединение+" "+Соединение.Сервер+" Порт="+Соединение.Порт+" (защищённое="+Соединение.Защищенное+")");
+
+	//Запрос = Новый HTTPЗапрос("/"+АдресФайлаВИнтернет);
+
+	//Если Запрос<>Неопределено Тогда
+	//    
+	//        //Соединение.Получить(Запрос, Каталог+ИмяФайлаЗагрузки);
+	//    Ответ = Соединение.Получить(Запрос, Каталог+АдресФайлаВИнтернет);
+	//    
+	//        //ИЛИ так Ответ = Соединение.Получить(Запрос);
+	//    //Ответ.ПолучитьТелоКакДвоичныеДанные().Записать(Каталог+ИмяФайлаЗагрузки);
+	//    
+	//    Сообщить(""+ТекущаяДата()+" Файл загружено в "+Каталог+АдресФайлаВИнтернет);
+
+	//Иначе
+	//    Сообщить("Файл не найден: "+Сайт+"\"+АдресФайлаВИнтернет);
+	//    Возврат;
+	//КонецЕсли;
+	
+	// https://forum.infostart.ru/forum9/topic49999/
+	АдресФайлаВИнтернет = "БэкОфисБезБСП.txt";
+	// Проверить, если файл уже есть - удалить
+	ИмяФайлаПриемника = Каталог+"\"+ АдресФайлаВИнтернет;
+	ИмяФайлаИсточника = "https://github.com/RBaskakov/1C/blob/master/БэкОфисБезБСП.txt";
+	КопироватьФайл(ИмяФайлаИсточника, ИмяФайлаПриемника);
+	
+	Текст.Прочитать(Каталог+"\"+АдресФайлаВИнтернет);
+	СтрВсё = Текст.ПолучитьТекст();
+	СформироватьФайлыИзСтроки(СтрВсё,ПапкаСФайламиКонфигурацииНаВыходеИнтернет);
+КонецПроцедуры
+
+&НаКлиенте
+Процедура СформироватьФайлыИзСтроки(СтрВсё,ПапкаСФайлами)
+	МассивНайденныхФайлов = НайтиФайлы(
+    	    ПапкаСФайлами, // где искать
+        	"*", // маска поиска
+        	Истина // если Истина, то будет искать и в подкаталогах
+    );         
+	Если МассивНайденныхФайлов.Количество() > 0 Тогда
+		Режим = РежимДиалогаВопрос.ДаНетОтмена;
+		Ответ = Вопрос("В папке "+ПапкаСФайлами+" не пустая. Очистить её?", Режим, 0);
+		Если Ответ = КодВозвратаДиалога.Отмена Тогда
+	    	Возврат;
+		ИначеЕсли Ответ = КодВозвратаДиалога.Да Тогда
+			УдалитьФайлы(ПапкаСФайлами);
+			СоздатьКаталог(ПапкаСФайлами);
+		КонецЕсли;	
+	КонецЕсли;		
+			
+	Пока СтрДлина(СтрВсё)>0 Цикл
+		Начало = Найти(СтрВсё, СтрНачалоФайла); 
+		Если Начало = 0 Тогда
+			Сообщить("Файлы конфигурации сформированы успешно.");
+			Возврат;			
+		КонецЕсли;
+		КонецФайла = Найти(СтрВсё, СтрКонецФайла); 
+	
+		СтрФайл=Сред(СтрВсё,Начало,КонецФайла-Начало);
+		НачалоВторойСтроки = Найти(СтрФайл,Символы.ПС);
+		СтрИмяФайла = Лев(СтрФайл,НачалоВторойСтроки-1);
+		СтрИмяФайла=Прав(СтрИмяФайла,СтрДлина(СтрИмяФайла)- СтрДлина(СтрНачалоФайла + ":"));
+		СтрФайл=Сред(СтрФайл,НачалоВторойСтроки+1,КонецФайла-НачалоВторойСтроки-2);			
+		ТекстФайла.Очистить();
+		ТекстФайла.ДобавитьСтроку(СтрФайл);
+		
+		СоздатьВсеКаталоги(ПапкаСФайлами + СтрИмяФайла);
+		ТекстФайла.Записать(ПапкаСФайлами + СтрИмяФайла);
+		СтрВсё=Прав(СтрВсё,СтрДлина(СтрВсё)-КонецФайла-СтрДлина(СтрКонецФайла ));			
+	КонецЦикла;
+	Сообщить("Файлы конфигурации сформированы успешно.");
+КонецПроцедуры
+
+&НаКлиенте
+Процедура СформироватьФайлыИзТекста(Команда)
+	СтрВсё = Текст.ПолучитьТекст();
+	СформироватьФайлыИзСтроки(СтрВсё,ПапкаСФайламиКонфигурацииНаВыходеТекст);
+КонецПроцедуры
+
+&НаКлиенте
+Процедура ПапкаСФайламиКонфигурацииНаВыходеТекстОткрытие(Элемент, СтандартнаяОбработка)
+	ПапкаСФайламиКонфигурацииНаВыходеТекст = ИмяВыбранногоКаталога(СтандартнаяОбработка);
+КонецПроцедуры
+
+&НаКлиенте
+Процедура ПапкаСФайламиКонфигурацииНаВходеТекстОткрытие(Элемент, СтандартнаяОбработка)
+	ПапкаСФайламиКонфигурацииНаВходеТекст = ИмяВыбранногоКаталога(СтандартнаяОбработка);
+КонецПроцедуры
+
+&НаКлиенте
+Процедура СформироватьТекстКонфигурации(Команда)
+	СформироватьТекстИзПапкиСФайлами(ПапкаСФайламиКонфигурацииНаВходеТекст);
+КонецПроцедуры
+@@@@@Конец_файла:\DataProcessors\ЭкспортИмпортТекст\Forms\Форма\Ext\Form\Module.bsl
+@@@@@Начало_файла:\Ext\ParentConfigurations.bin
+{6,0,0,8,6d5b4683-5ab8-46a0-9219-bfd42da9590f,2,ed992da3-06df-4072-af55-778d209ce7e3,2,7b8491fc-e2d8-4655-957f-8e4668e55f11,2,8ba80daa-353c-4f0f-9961-8e1efc75815e,2,ff1de870-0b83-439e-9ad2-6e2d0c778575,2,a6778428-c57b-4653-a2fd-d8e8ae81db79,2,784f4ca8-d50f-4e07-a660-fa93811fff3f,2,a082ee06-39ba-40d4-9b4b-176e7b4b866f,2,1,6,963a267f-12e7-4305-9f5a-6615e9f80e1f,1,7b8491fc-e2d8-4655-957f-8e4668e55f11,0,ff1de870-0b83-439e-9ad2-6e2d0c778575,1,a6778428-c57b-4653-a2fd-d8e8ae81db79,1,784f4ca8-d50f-4e07-a660-fa93811fff3f,1,a082ee06-39ba-40d4-9b4b-176e7b4b866f,1}
+@@@@@Конец_файла:\Ext\ParentConfigurations.bin
+@@@@@Начало_файла:\Languages\Русский.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Language uuid="8ba80daa-353c-4f0f-9961-8e1efc75815e">
+		<Properties>
+			<Name>Русский</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Русский</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<LanguageCode>ru</LanguageCode>
+		</Properties>
+	</Language>
+</MetaDataObject>
+@@@@@Конец_файла:\Languages\Русский.xml

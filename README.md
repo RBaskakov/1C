@@ -50,7 +50,7 @@
 
 [Скачать техническое задание](https://github.com/RBaskakov/1C/blob/master/%D0%A2%D0%B5%D1%81%D1%82%D1%8B/%D0%A2%D0%B5%D1%81%D1%82.dt)
 
-[Скачать информационную базу] (https://github.com/RBaskakov/1C/blob/master/%D0%A2%D0%B5%D1%81%D1%82%D1%8B/%D0%A2%D0%B5%D1%81%D1%82.dt)
+[Скачать информационную базу](https://github.com/RBaskakov/1C/blob/master/%D0%A2%D0%B5%D1%81%D1%82%D1%8B/%D0%A2%D0%B5%D1%81%D1%82.dt)
 
 **12. Конфигурация для управления автотранспортом.**
 

@@ -48,9 +48,9 @@
 
 **11. Отчёт СКД формируемый с помощью кода с программным формированием запроса.**
 
-[Скачать техническое задание](https://github.com/RBaskakov/1C/blob/master/%D0%A2%D0%97%20%D0%BD%D0%B0%20%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D0%B1%D1%83%D1%85%D0%B3%D0%B0%D0%BB%D1%82%D0%B5%D1%80%D0%B8%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D0%B0.pdf)
+[Скачать техническое задание](https://github.com/RBaskakov/1C/blob/master/%D0%A2%D0%B5%D1%81%D1%82%D1%8B/%D0%A2%D0%B5%D1%81%D1%82.dt)
 
-[Скачать информационную базу] (https://github.com/RBaskakov/1C/blob/master/ExportImport/ЭкспортИмпортXML.epf)
+[Скачать информационную базу] (https://github.com/RBaskakov/1C/blob/master/%D0%A2%D0%B5%D1%81%D1%82%D1%8B/%D0%A2%D0%B5%D1%81%D1%82.dt)
 
 **12. Конфигурация для управления автотранспортом.**
 

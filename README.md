@@ -52,6 +52,9 @@
 
 [Скачать конфигурацию](https://github.com/RBaskakov/1C/blob/master/%D0%A2%D0%B5%D1%81%D1%82%D1%8B/%D0%A2%D0%B5%D1%81%D1%82%20reqres.in/%D0%A2%D0%B5%D1%81%D1%82_reqres.in.cf)
 
+**13. Конфигурация для загрузки курса валют с помощью веб-сервиса ЦБ РФ (https://www.cbr.ru/DailyInfoWebServ/DailyInfo.asmx).**
+
+[Скачать конфигурацию](https://github.com/RBaskakov/1C/blob/master/%D0%A2%D0%B5%D1%81%D1%82%D1%8B/%D0%A2%D0%B5%D1%81%D1%82%20reqres.in/%D0%A2%D0%B5%D1%81%D1%82_reqres.in.cf)
 **Использование данных разработок в любых целях, кроме ознакомительных, запрещено.**
 
 **Смотрите также:**

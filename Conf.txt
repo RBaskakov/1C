@@ -19,12 +19,12 @@
 			<Metadata name="Enum.СтатусыЗаявок.EnumValue.СборДокументов" id="dab24d10-9545-45d2-94c0-3a9a8362dbd3"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="5a010f01-e424-4e12-8fbf-a5f89018915a" configVersion="fb80528cd8c6044ba06669677c2a079000000000"/>
-		<Metadata name="Report.ТестовыйОтчет" id="fccbcfa1-37b5-4dbc-b40a-cd58a896dba4" configVersion="694dc8ec5e5b8c44a8d69bd7dbb989ac00000000"/>
+		<Metadata name="Report.ТестовыйОтчет" id="fccbcfa1-37b5-4dbc-b40a-cd58a896dba4" configVersion="a57624685fc6364c9cba49199eec906f00000000"/>
 		<Metadata name="Report.ТестовыйОтчет.Help" id="fccbcfa1-37b5-4dbc-b40a-cd58a896dba4.1" configVersion="0a4a06501b78a249a0788011613f745500000000"/>
-		<Metadata name="Report.ТестовыйОтчет.ManagerModule" id="fccbcfa1-37b5-4dbc-b40a-cd58a896dba4.2" configVersion="dd463b301712ed45be503a5934060f8600000000"/>
+		<Metadata name="Report.ТестовыйОтчет.ManagerModule" id="fccbcfa1-37b5-4dbc-b40a-cd58a896dba4.2" configVersion="19a4e4cf1e77e54983acafb61c47962000000000"/>
 		<Metadata name="Report.ТестовыйОтчет.ObjectModule" id="fccbcfa1-37b5-4dbc-b40a-cd58a896dba4.0" configVersion="77112daed9763047820307119419521500000000"/>
-		<Metadata name="Report.ТестовыйОтчет.Template.ОсновнаяСхемаКомпоновкиДанных" id="f05f64c5-aca6-49ac-b144-b42668ca5346" configVersion="a534d8a527e24e438754cf5e22dacc3000000000"/>
-		<Metadata name="Report.ТестовыйОтчет.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="f05f64c5-aca6-49ac-b144-b42668ca5346.0" configVersion="133dbed4d578ed49b595ee17df439e5c00000000"/>
+		<Metadata name="Report.ТестовыйОтчет.Template.ОсновнаяСхемаКомпоновкиДанных" id="f05f64c5-aca6-49ac-b144-b42668ca5346" configVersion="685b562b687b174aa4270e13299e56d000000000"/>
+		<Metadata name="Report.ТестовыйОтчет.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="f05f64c5-aca6-49ac-b144-b42668ca5346.0" configVersion="ed917953ddc76a438a86d8fc335d122a00000000"/>
 		<Metadata name="Role.ПолныеПрава" id="e1564c30-ee16-44b8-858a-5d3cea3374a6" configVersion="cdd9828fffc81a43b4901a3b5688567f00000000"/>
 		<Metadata name="Role.ПолныеПрава.Rights" id="e1564c30-ee16-44b8-858a-5d3cea3374a6.0" configVersion="92fa9e4be29b7c4fb0dcba8a18f0fac300000000"/>
 	</ConfigVersions>
@@ -720,6 +720,11 @@
 	</Report>
 </MetaDataObject>
 @@@@@Конец_файла:\Reports\ТестовыйОтчет.xml
+@@@@@Начало_файла:\Reports\ТестовыйОтчет\Ext\ManagerModule.bsl
+Процедура ОбработкаПолученияФормы(ВидФормы, Параметры, ВыбраннаяФорма, ДополнительнаяИнформация, СтандартнаяОбработка)
+	// Вставить содержимое обработчика.
+КонецПроцедуры
+@@@@@Конец_файла:\Reports\ТестовыйОтчет\Ext\ManagerModule.bsl
 @@@@@Начало_файла:\Reports\ТестовыйОтчет\Templates\ОсновнаяСхемаКомпоновкиДанных.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
@@ -790,6 +795,48 @@
 					<v8:content>В работе</v8:content>
 				</v8:item>
 			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=0; ЧФ=Ч</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтказБанка</dataPath>
+			<field>ОтказБанка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отказ банка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Успешно</dataPath>
+			<field>Успешно</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Успешно</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтказКлиента</dataPath>
+			<field>ОтказКлиента</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отказ клиента</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
@@ -802,15 +849,79 @@
 					ИЛИ АнкетаДляБанкаЗаявки.Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыЗаявок.ОжиданиеОтвета)
 				ТОГДА 1
 			ИНАЧЕ 0
-		КОНЕЦ) КАК ВРаботе
+		КОНЕЦ) КАК ВРаботе,
+	ВЫБОР
+		КОГДА АнкетаДляБанкаЗаявки.Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыЗаявок.ОтказБанка)
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК ОтказБанка,
+	ВЫБОР
+		КОГДА АнкетаДляБанкаЗаявки.Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыЗаявок.ОтказКлиента)
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК ОтказКлиента,
+	ВЫБОР
+		КОГДА АнкетаДляБанкаЗаявки.Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыЗаявок.Одобрено)
+				ИЛИ АнкетаДляБанкаЗаявки.Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыЗаявок.Выдана)
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК Успешно
 ИЗ
 	Документ.АнкетаДляБанка.Заявки КАК АнкетаДляБанкаЗаявки
+ГДЕ
+	АнкетаДляБанкаЗаявки.Ссылка.Дата МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
 
 СГРУППИРОВАТЬ ПО
 	АнкетаДляБанкаЗаявки.Статус,
 	АнкетаДляБанкаЗаявки.КредитнаяПрограмма.Наименование,
-	АнкетаДляБанкаЗаявки.КредитнаяПрограмма.Владелец.Наименование</query>
+	АнкетаДляБанкаЗаявки.КредитнаяПрограмма.Владелец.Наименование,
+	ВЫБОР
+		КОГДА АнкетаДляБанкаЗаявки.Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыЗаявок.ОтказБанка)
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА АнкетаДляБанкаЗаявки.Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыЗаявок.ОтказКлиента)
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ</query>
 	</dataSet>
+	<calculatedField>
+		<dataPath>ПроцентОдобрения</dataPath>
+		<expression>ВЫБОР КОГДА ВсегоЗаявок=0 ТОГДА 0 ИНАЧЕ 100*Успешно/ВсегоЗаявок КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Процент одобрения</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>2</v8:Digits>
+				<v8:FractionDigits>2</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>Доля</dataPath>
+		<expression>ВЫБОР КОГДА ВычислитьВыражение("Сумма(ВсегоЗаявок)", "ОбщийИтог")=0 ТОГДА 0 ИНАЧЕ 100*ВсегоЗаявок/ВычислитьВыражение("Сумма(ВсегоЗаявок)", "ОбщийИтог") КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Доля</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>2</v8:Digits>
+				<v8:FractionDigits>2</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+	</calculatedField>
 	<totalField>
 		<dataPath>ВсегоЗаявок</dataPath>
 		<expression>Сумма(ВсегоЗаявок)</expression>
@@ -819,6 +930,83 @@
 		<dataPath>ВРаботе</dataPath>
 		<expression>Сумма(ВРаботе)</expression>
 	</totalField>
+	<totalField>
+		<dataPath>ОтказБанка</dataPath>
+		<expression>Сумма(ОтказБанка)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ОтказКлиента</dataPath>
+		<expression>Сумма(ОтказКлиента)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Успешно</dataPath>
+		<expression>Сумма(Успешно)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПроцентОдобрения</dataPath>
+		<expression>Сумма(ПроцентОдобрения)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Доля</dataPath>
+		<expression>Сумма(Доля)</expression>
+	</totalField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
@@ -827,7 +1015,112 @@
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ВсегоЗаявок</dcsset:field>
 				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Доля</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВРаботе</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОтказБанка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОтказКлиента</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Успешно</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентОдобрения</dcsset:field>
+				</dcsset:item>
 			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">КредитнаяПрограмма</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+					<dcsset:userSettingID>323dc03f-6e80-4ba1-a4fd-186463f1d424</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Банк</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+					<dcsset:userSettingID>1ecc82e2-ea42-42af-99c8-0d05b332904f</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</dcscor:value>
+					<dcsset:userSettingID>6094354d-0fdd-45f7-9e15-0f94be893341</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection/>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветФона</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">style:ReportGroup1BackColor</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Шрифт</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧДЦ=2</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>Доля</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ПроцентОдобрения</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧДЦ=2</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
@@ -856,9 +1149,42 @@
 							<dcsset:field>ВсегоЗаявок</dcsset:field>
 						</dcsset:item>
 						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Доля</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
 							<dcsset:field>ВРаботе</dcsset:field>
 						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ОтказБанка</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ОтказКлиента</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Успешно</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ПроцентОдобрения</dcsset:field>
+						</dcsset:item>
 					</dcsset:selection>
+					<dcsset:conditionalAppearance>
+						<dcsset:item>
+							<dcsset:selection/>
+							<dcsset:filter/>
+							<dcsset:appearance>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>ЦветФона</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Color">style:FieldBackColor</dcscor:value>
+								</dcscor:item>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>Шрифт</dcscor:parameter>
+									<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="false" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+								</dcscor:item>
+							</dcsset:appearance>
+							<dcsset:useInFieldsHeader>DontUse</dcsset:useInFieldsHeader>
+							<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+						</dcsset:item>
+					</dcsset:conditionalAppearance>
 				</dcsset:item>
 			</dcsset:item>
 		</dcsset:settings>

@@ -66,8 +66,8 @@
 			<Metadata name="Document.Распоряжение.TabularSection.ПрограммныеСредства.Attribute.ПрограммноеСредство" id="b4b09ec0-542c-4109-a524-f73f9613056d"/>
 			<Metadata name="Document.Распоряжение.TabularSection.Закрепление" id="c438bb46-f953-4f39-b7dd-6719ecc01603"/>
 		</Metadata>
-		<Metadata name="Document.Распоряжение.Form.ФормаДокумента" id="d31fb3f2-90cb-481c-a363-669cb9d4373c" configVersion="d80443d85cfefd408000fd34d2fb4e4e00000000"/>
-		<Metadata name="Document.Распоряжение.Form.ФормаДокумента.Form" id="d31fb3f2-90cb-481c-a363-669cb9d4373c.0" configVersion="f218c2878969444d9c8910ca1c3ee63800000000"/>
+		<Metadata name="Document.Распоряжение.Form.ФормаДокумента" id="d31fb3f2-90cb-481c-a363-669cb9d4373c" configVersion="c6b8c265ab3ea946bd32ecb0e91c417400000000"/>
+		<Metadata name="Document.Распоряжение.Form.ФормаДокумента.Form" id="d31fb3f2-90cb-481c-a363-669cb9d4373c.0" configVersion="8f668b00927653428634d5c98e47d6d300000000"/>
 		<Metadata name="Document.Распоряжение.ManagerModule" id="b4731d24-3f27-40ac-831f-2436c6d4edad.2" configVersion="5db99a9f7ae6f74e9b322887488056b200000000"/>
 		<Metadata name="Document.Распоряжение.ObjectModule" id="b4731d24-3f27-40ac-831f-2436c6d4edad.0" configVersion="de5363e49854154193af09ea6f600a0b00000000"/>
 		<Metadata name="Enum.ВидыЗакрепления" id="346528fd-413d-4a62-b80a-e438b00cc28c" configVersion="b4b72aaf524d8c4b83b8b7ef0aa79f2f00000000">
@@ -4798,8 +4798,8 @@
 	ОбработкаОкончанияПомещения = Новый ОписаниеОповещения
         ("ОбработчикОкончанияПомещения", ЭтотОбъект);
 
-    НачатьПомещениеФайла(ОбработкаОкончанияПомещения, , , Истина,     
-        ЭтотОбъект.УникальныйИдентификатор);
+    НачатьПомещениеФайла(ОбработкаОкончанияПомещения, , , Истина,);     
+        //	ЭтотОбъект.УникальныйИдентификатор);
 КонецПроцедуры                  
 
 &НаКлиенте

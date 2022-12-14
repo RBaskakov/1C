@@ -1,0 +1,447 @@
+@@@@@Начало_файла:\ConfigDumpInfo.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.13">
+	<ConfigVersions>
+		<Metadata name="Configuration.Конфигурация" id="bc6f31cb-e914-4bb4-b8d8-78de2a75ceb4" configVersion="db350b9d365b2846aa1ca126ff79758300000000"/>
+		<Metadata name="DataProcessor.ВыгрузкаОстатков" id="2bd9e539-1398-41f5-b666-a79c4abd4791" configVersion="3885ed81b6164648a99642ebd0ddb1e600000000">
+			<Metadata name="DataProcessor.ВыгрузкаОстатков.Attribute.Дата" id="4e4276a7-4cd6-4a8f-9171-2f98f096c81a"/>
+		</Metadata>
+		<Metadata name="DataProcessor.ВыгрузкаОстатков.Form.Форма" id="725ed6c5-2661-45af-9ff1-d60bab3cf2a9" configVersion="8be91d6aa8cf2241b19a4d71550db46d00000000"/>
+		<Metadata name="DataProcessor.ВыгрузкаОстатков.Form.Форма.Form" id="725ed6c5-2661-45af-9ff1-d60bab3cf2a9.0" configVersion="23a43c8381d39e43bbd5a8ced34e824c00000000"/>
+		<Metadata name="Language.Русский" id="41a283d2-79db-4b01-9b3c-d86702fcc27b" configVersion="ae9e88f949906547b388a64153a8f8e200000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
+@@@@@Конец_файла:\ConfigDumpInfo.xml
+@@@@@Начало_файла:\Configuration.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Configuration uuid="bc6f31cb-e914-4bb4-b8d8-78de2a75ceb4">
+		<InternalInfo>
+			<xr:ContainedObject>
+				<xr:ClassId>9cd510cd-abfc-11d4-9434-004095e12fc7</xr:ClassId>
+				<xr:ObjectId>1e4d9a02-1702-4280-ace9-40a76abf1cfa</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>9fcd25a0-4822-11d4-9414-008048da11f9</xr:ClassId>
+				<xr:ObjectId>ac573612-1643-4eec-8c4b-ba018d2a456d</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>e3687481-0a87-462c-a166-9f34594f9bba</xr:ClassId>
+				<xr:ObjectId>8c08e4db-c258-466c-81ab-ac6b0c412107</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>9de14907-ec23-4a07-96f0-85521cb6b53b</xr:ClassId>
+				<xr:ObjectId>920c9024-137b-4e71-9b44-5b4c8cb67bcc</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>51f2d5d8-ea4d-4064-8892-82951750031e</xr:ClassId>
+				<xr:ObjectId>d5da20f5-f720-49e3-b61c-47c5e8373d9b</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
+				<xr:ObjectId>ebe65777-5470-49f6-bcb2-b9a8712f1343</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
+				<xr:ObjectId>4d80f2b0-829a-44ed-8c2b-eb00fa303859</xr:ObjectId>
+			</xr:ContainedObject>
+		</InternalInfo>
+		<Properties>
+			<Name>Конфигурация</Name>
+			<Synonym/>
+			<Comment/>
+			<NamePrefix/>
+			<ConfigurationExtensionCompatibilityMode>Version8_3_20</ConfigurationExtensionCompatibilityMode>
+			<DefaultRunMode>ManagedApplication</DefaultRunMode>
+			<UsePurposes>
+				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
+			</UsePurposes>
+			<ScriptVariant>Russian</ScriptVariant>
+			<DefaultRoles/>
+			<Vendor/>
+			<Version/>
+			<UpdateCatalogAddress/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
+			<UseOrdinaryFormInManagedApplication>false</UseOrdinaryFormInManagedApplication>
+			<AdditionalFullTextSearchDictionaries/>
+			<CommonSettingsStorage/>
+			<ReportsUserSettingsStorage/>
+			<ReportsVariantsStorage/>
+			<FormDataSettingsStorage/>
+			<DynamicListsUserSettingsStorage/>
+			<URLExternalDataStorage/>
+			<Content/>
+			<DefaultReportForm/>
+			<DefaultReportVariantForm/>
+			<DefaultReportSettingsForm/>
+			<DefaultDynamicListSettingsForm/>
+			<DefaultSearchForm/>
+			<DefaultDataHistoryChangeHistoryForm/>
+			<DefaultDataHistoryVersionDataForm/>
+			<DefaultDataHistoryVersionDifferencesForm/>
+			<DefaultCollaborationSystemUsersChoiceForm/>
+			<RequiredMobileApplicationPermissions/>
+			<UsedMobileApplicationFunctionalities>
+				<app:functionality>
+					<app:functionality>Biometrics</app:functionality>
+					<app:use>true</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>Location</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>BackgroundLocation</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>BluetoothPrinters</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>WiFiPrinters</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>Contacts</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>Calendars</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>PushNotifications</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>LocalNotifications</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>InAppPurchases</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>PersonalComputerFileExchange</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>Ads</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>NumberDialing</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>CallProcessing</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>CallLog</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>AutoSendSMS</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>ReceiveSMS</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>SMSLog</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>Camera</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>Microphone</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>MusicLibrary</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>PictureAndVideoLibraries</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>AudioPlaybackAndVibration</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>BackgroundAudioPlaybackAndVibration</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>InstallPackages</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>OSBackup</app:functionality>
+					<app:use>true</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>ApplicationUsageStatistics</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>BarcodeScanning</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>BackgroundAudioRecording</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+				<app:functionality>
+					<app:functionality>AllFilesAccess</app:functionality>
+					<app:use>false</app:use>
+				</app:functionality>
+			</UsedMobileApplicationFunctionalities>
+			<StandaloneConfigurationRestrictionRoles/>
+			<MobileApplicationURLs/>
+			<MainClientApplicationWindowMode>Normal</MainClientApplicationWindowMode>
+			<DefaultInterface/>
+			<DefaultStyle/>
+			<DefaultLanguage>Language.Русский</DefaultLanguage>
+			<BriefInformation/>
+			<DetailedInformation/>
+			<Copyright/>
+			<VendorInformationAddress/>
+			<ConfigurationInformationAddress/>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
+			<ModalityUseMode>DontUse</ModalityUseMode>
+			<SynchronousPlatformExtensionAndAddInCallUseMode>DontUse</SynchronousPlatformExtensionAndAddInCallUseMode>
+			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
+			<CompatibilityMode>Version8_3_13</CompatibilityMode>
+			<DefaultConstantsForm/>
+		</Properties>
+		<ChildObjects>
+			<Language>Русский</Language>
+			<DataProcessor>ВыгрузкаОстатков</DataProcessor>
+		</ChildObjects>
+	</Configuration>
+</MetaDataObject>
+@@@@@Конец_файла:\Configuration.xml
+@@@@@Начало_файла:\DataProcessors\ВыгрузкаОстатков.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<DataProcessor uuid="2bd9e539-1398-41f5-b666-a79c4abd4791">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ВыгрузкаОстатков" category="Object">
+				<xr:TypeId>4dd2585b-c164-4554-a2c5-a57d61918e4e</xr:TypeId>
+				<xr:ValueId>a37d7074-833c-4571-9fb8-03d718218a5e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ВыгрузкаОстатков" category="Manager">
+				<xr:TypeId>c386307b-da46-437d-bab4-c1a886baee30</xr:TypeId>
+				<xr:ValueId>2d89e0b0-7a1b-4638-9fb0-100b4bec4d81</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВыгрузкаОстатков</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузка остатков</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm>DataProcessor.ВыгрузкаОстатков.Form.Форма</DefaultForm>
+			<AuxiliaryForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="4e4276a7-4cd6-4a8f-9171-2f98f096c81a">
+				<Properties>
+					<Name>Дата</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+				</Properties>
+			</Attribute>
+			<Form>Форма</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>
+@@@@@Конец_файла:\DataProcessors\ВыгрузкаОстатков.xml
+@@@@@Начало_файла:\DataProcessors\ВыгрузкаОстатков\Forms\Форма.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Form uuid="725ed6c5-2661-45af-9ff1-d60bab3cf2a9">
+		<Properties>
+			<Name>Форма</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Форма</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<FormType>Managed</FormType>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<UsePurposes>
+				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
+				<v8:Value xsi:type="app:ApplicationUsePurpose">MobilePlatformApplication</v8:Value>
+			</UsePurposes>
+			<ExtendedPresentation/>
+		</Properties>
+	</Form>
+</MetaDataObject>
+@@@@@Конец_файла:\DataProcessors\ВыгрузкаОстатков\Forms\Форма.xml
+@@@@@Начало_файла:\DataProcessors\ВыгрузкаОстатков\Forms\Форма\Ext\Form.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Сформировать остатки на дату</v8:content>
+		</v8:item>
+	</Title>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Дата" id="1">
+			<DataPath>Объект.Дата</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="СчетНаименование" id="6">
+			<ChoiceButton>true</ChoiceButton>
+			<ContextMenu name="СчетНаименованиеКонтекстноеМеню" id="7"/>
+			<ExtendedTooltip name="СчетНаименованиеРасширеннаяПодсказка" id="8"/>
+			<Events>
+				<Event name="ChoiceProcessing">СчетНаименованиеОбработкаВыбора</Event>
+			</Events>
+		</InputField>
+		<Button name="СформироватьОстатки" id="4">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.СформироватьОстатки</CommandName>
+			<ExtendedTooltip name="СформироватьОстаткиРасширеннаяПодсказка" id="5"/>
+		</Button>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ВыгрузкаОстатков</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СформироватьОстатки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать остатки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать остатки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СформироватьОстатки</Action>
+		</Command>
+	</Commands>
+</Form>
+@@@@@Конец_файла:\DataProcessors\ВыгрузкаОстатков\Forms\Форма\Ext\Form.xml
+@@@@@Начало_файла:\DataProcessors\ВыгрузкаОстатков\Forms\Форма\Ext\Form\Module.bsl
+&НаКлиенте
+Процедура СформироватьОстатки(Команда)
+	СформироватьОстаткиНаСервере();
+КонецПроцедуры
+
+&НаСервере
+Процедура СформироватьОстаткиНаСервере()
+	Запрос = Новый Запрос;
+	Запрос.Текст = "ВЫБРАТЬ
+	               |	ХозрасчетныйОстатки.СуммаОстаток КАК СуммаОстаток,
+	               |	ХозрасчетныйОстатки.КоличествоОстаток КАК КоличествоОстаток
+	               |ИЗ
+	               |	РегистрБухгалтерии.Хозрасчетный.Остатки(&Дата, Счет = &Счет, , ) КАК ХозрасчетныйОстатки";
+	Счет = ПланыСчетов.Хозрасчетный.НайтиПоКоду("41.02");
+	Запрос.УстановитьПараметр("Дата",Объект.Дата);
+	Запрос.УстановитьПараметр("Счет",Счет);
+	//Запрос.УстановитьПараметр("Дата",Объект.Дата);                                   
+	ТЗ = Запрос.Выполнить().Выгрузить();
+    //СписокВидовСубконто = Новый СписокЗначений;
+	//СписокВидовСубконто.Добавить(ПланыВидовХарактеристик.ВидыСубконтоХозрасчетные.Партии,"Партии");
+	//СписокВидовСубконто.Добавить(ПланыВидовХарактеристик.ВидыСубконтоХозрасчетные.Склады,"Склады");
+	//СписокВидовСубконто.Добавить(ПланыВидовХарактеристик.ВидыСубконтоХозрасчетные.Номенклатура,"Номенклатура");
+	
+	
+КонецПроцедуры
+
+&НаСервереБезКонтекста
+Процедура СчетНаименованиеОбработкаВыбораНаСервере()
+	// Вставить содержимое обработчика.
+КонецПроцедуры
+
+&НаКлиенте
+Процедура СчетНаименованиеОбработкаВыбора(Элемент, ВыбранноеЗначение, СтандартнаяОбработка)
+	СчетНаименованиеОбработкаВыбораНаСервере();
+КонецПроцедуры
+@@@@@Конец_файла:\DataProcessors\ВыгрузкаОстатков\Forms\Форма\Ext\Form\Module.bsl
+@@@@@Начало_файла:\Languages\Русский.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Language uuid="41a283d2-79db-4b01-9b3c-d86702fcc27b">
+		<Properties>
+			<Name>Русский</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Русский</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<LanguageCode>ru</LanguageCode>
+		</Properties>
+	</Language>
+</MetaDataObject>
+@@@@@Конец_файла:\Languages\Русский.xml

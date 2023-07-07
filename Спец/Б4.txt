@@ -11,8 +11,10 @@
 			<Metadata name="AccumulationRegister.ЗаказыПокупателей.Dimension.Заказ" id="837c1da4-db9d-4f3f-9cec-be3579a77e50"/>
 			<Metadata name="AccumulationRegister.ЗаказыПокупателей.Resource.Количество" id="e1e453f3-215c-4b8e-b4c7-9fafe4fc5788"/>
 		</Metadata>
-		<Metadata name="AccumulationRegister.ОстаткиНоменклатуры" id="3b6a2554-be38-4359-933d-5e60472df283" configVersion="aa9d531f3f73b248b7f53f44055103ea00000000">
-			<Metadata name="AccumulationRegister.ОстаткиНоменклатуры.Resource.Количество" id="581d783c-f68f-457b-a185-0d6892bbc7c7"/>
+		<Metadata name="AccumulationRegister.ОстаткиНоменклатуры" id="3b6a2554-be38-4359-933d-5e60472df283" configVersion="5587247e8bf4c042bdf34f7f0e83ec0b00000000">
+			<Metadata name="AccumulationRegister.ОстаткиНоменклатуры.Resource.Резерв" id="2dbd8862-fb7c-45e5-838a-0d66d91f1453"/>
+			<Metadata name="AccumulationRegister.ОстаткиНоменклатуры.Resource.Отгружено" id="33274824-7e37-4768-a04e-35f7c2d59f62"/>
+			<Metadata name="AccumulationRegister.ОстаткиНоменклатуры.Resource.Закуплено" id="581d783c-f68f-457b-a185-0d6892bbc7c7"/>
 			<Metadata name="AccumulationRegister.ОстаткиНоменклатуры.Dimension.Заказ" id="67242028-c281-4d4a-b68e-fc15286d2531"/>
 			<Metadata name="AccumulationRegister.ОстаткиНоменклатуры.Dimension.Номенклатура" id="bbe06460-477d-448d-be25-78b043c9c7e1"/>
 			<Metadata name="AccumulationRegister.ОстаткиНоменклатуры.Resource.Сумма" id="c5980e28-f0cd-4109-889d-21f08203625b"/>
@@ -39,7 +41,7 @@
 		<Metadata name="Catalog.ЗначенияСвойств" id="ef77557e-2e11-4e7b-ac75-8e8de5e6e0ef" configVersion="22e6c1995a67bb47899a74589b56d3e400000000"/>
 		<Metadata name="Catalog.Контрагенты" id="f5d1d69b-c1e1-4f2a-a961-d7930f0c8f6a" configVersion="e38a531d3408ab4e845aaba9a190a63e00000000"/>
 		<Metadata name="Catalog.Контрагенты.Predefined" id="f5d1d69b-c1e1-4f2a-a961-d7930f0c8f6a.1c" configVersion="f63f3a3cded8f049bbb08969f47e56b100000000"/>
-		<Metadata name="Catalog.Номенклатура" id="b5ffda73-09b5-410d-b5dc-4d2f903f38ac" configVersion="44bfcd0608b43342b80130357a166ae700000000"/>
+		<Metadata name="Catalog.Номенклатура" id="b5ffda73-09b5-410d-b5dc-4d2f903f38ac" configVersion="4eb8c87cdf2487418d45464ba8e8eb6200000000"/>
 		<Metadata name="Catalog.Номенклатура.Help" id="b5ffda73-09b5-410d-b5dc-4d2f903f38ac.1" configVersion="5b8eb270cde66044a5742c06b2e8112100000000"/>
 		<Metadata name="Catalog.Номенклатура.ManagerModule" id="b5ffda73-09b5-410d-b5dc-4d2f903f38ac.3" configVersion="25a584ae13b2a4428b8acbbfb78577f800000000"/>
 		<Metadata name="Catalog.Номенклатура.ObjectModule" id="b5ffda73-09b5-410d-b5dc-4d2f903f38ac.0" configVersion="d04985b9b3b3104eadf8829633439cb400000000"/>
@@ -81,7 +83,7 @@
 		<Metadata name="CommonPicture.Расчеты.Picture" id="d4f2cd1f-c7dc-4db0-bc14-6de4faef79f9.0" configVersion="953dbd6bbbf5bf42b1ef298a9c1cbc0100000000"/>
 		<Metadata name="CommonPicture.Сервис" id="ce117e9a-32c1-4b6a-9037-58a22ad2a457" configVersion="af1ecfcc5ae7974993489f31cc95c47400000000"/>
 		<Metadata name="CommonPicture.Сервис.Picture" id="ce117e9a-32c1-4b6a-9037-58a22ad2a457.0" configVersion="c9242d51126b664c899beddd8b6bebe200000000"/>
-		<Metadata name="Configuration.Билет_4" id="bc7495ad-432e-4f59-8fab-94750b9a56d8" configVersion="a48449cde6e40545a30ea0e38c316c8d00000000"/>
+		<Metadata name="Configuration.Билет_4" id="bc7495ad-432e-4f59-8fab-94750b9a56d8" configVersion="f7b1030b38cf8d47835f019b49316b2d00000000"/>
 		<Metadata name="Constant.НазваниеОрганизации" id="fe2c357d-0bfa-4290-9797-a4ee8777071f" configVersion="5db10e97f848db49965dffaf8929399200000000"/>
 		<Metadata name="Constant.НазваниеОрганизации.ValueManagerModule" id="fe2c357d-0bfa-4290-9797-a4ee8777071f.0" configVersion="3d707941a31ec04bae2b100d150d3ab300000000"/>
 		<Metadata name="Constant.ЮридическийАдрес" id="0dec7823-6078-4382-add3-24c71d2958a7" configVersion="d0755aa85337f24b943c501358bdd1a700000000"/>
@@ -112,7 +114,7 @@
 		<Metadata name="DataProcessor.КонсольЗапросов.Help" id="a604e308-59df-4dc5-80af-32a45ca6c70a.1" configVersion="7e8137c520253c4bb8232fe10145cd6400000000"/>
 		<Metadata name="DataProcessor.КонсольЗапросов.ManagerModule" id="a604e308-59df-4dc5-80af-32a45ca6c70a.2" configVersion="e586a0eb4662b443872e42f5380da9fd00000000"/>
 		<Metadata name="DataProcessor.КонсольЗапросов.ObjectModule" id="a604e308-59df-4dc5-80af-32a45ca6c70a.0" configVersion="02c4132c264c4a45a8387697adebcd6d00000000"/>
-		<Metadata name="Document.ЗаказПокупателя" id="ab1cbb3d-576e-4d0f-9133-f80164831720" configVersion="86fe4436d2115f40b127ab13c661506c00000000">
+		<Metadata name="Document.ЗаказПокупателя" id="ab1cbb3d-576e-4d0f-9133-f80164831720" configVersion="56e75163e6702e40baa447cc3a3134a900000000">
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.СписокНоменклатуры.Attribute.Номенклатура" id="0b1f9ade-2b68-429a-a133-c6109a2e8e59"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.СписокНоменклатуры.Attribute.Количество" id="2ae191a6-8d51-49ac-8722-dea235b53064"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.СписокНоменклатуры" id="39c6b8c8-0b0a-4414-989d-68fde8e46c99"/>
@@ -120,9 +122,11 @@
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.СписокНоменклатуры.Attribute.Цена" id="83f495eb-1fe4-455a-8bf2-ff15455d9bc3"/>
 			<Metadata name="Document.ЗаказПокупателя.TabularSection.СписокНоменклатуры.Attribute.Сумма" id="a0597309-c564-46f9-a690-8c32141abc22"/>
 		</Metadata>
+		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента" id="b59aca66-9497-4060-a81e-6083017cc715" configVersion="0bf0edac2a1f7e4185359365fc14971700000000"/>
+		<Metadata name="Document.ЗаказПокупателя.Form.ФормаДокумента.Form" id="b59aca66-9497-4060-a81e-6083017cc715.0" configVersion="e49ab8aaaa8ebd44a8411ddb28f987b000000000"/>
 		<Metadata name="Document.ЗаказПокупателя.Help" id="ab1cbb3d-576e-4d0f-9133-f80164831720.1" configVersion="1344bccb51b7e14b97305952957b0e2200000000"/>
 		<Metadata name="Document.ЗаказПокупателя.ManagerModule" id="ab1cbb3d-576e-4d0f-9133-f80164831720.2" configVersion="1a6bbd6ebde0e44c888adbc1a9ad559e00000000"/>
-		<Metadata name="Document.ЗаказПокупателя.ObjectModule" id="ab1cbb3d-576e-4d0f-9133-f80164831720.0" configVersion="ca6d2c01396d124daacdbf0dc0aa608b00000000"/>
+		<Metadata name="Document.ЗаказПокупателя.ObjectModule" id="ab1cbb3d-576e-4d0f-9133-f80164831720.0" configVersion="fb881f5e36a768429f2522fc904cdbd600000000"/>
 		<Metadata name="Document.КорректировкаСебестоимости" id="f7f123b2-f367-4f8e-8eb8-bb970f5a53af" configVersion="4b3ca0507a19034cb8742eb868c6e51900000000"/>
 		<Metadata name="Document.КорректировкаСебестоимости.ObjectModule" id="f7f123b2-f367-4f8e-8eb8-bb970f5a53af.0" configVersion="ee56019bf4d4a5458874b09572dda2cc00000000"/>
 		<Metadata name="Document.НачислениеЗарплаты" id="6f3e6016-93ea-432e-83ca-683feff63956" configVersion="b06a4a7bab1a67459fa6b96d27c263a700000000">
@@ -142,7 +146,7 @@
 		<Metadata name="Document.Операция" id="8af11808-3b8e-4e41-adab-6ec1f6216ae6" configVersion="075468976f7e96408417544d8c95b63d00000000"/>
 		<Metadata name="Document.Операция.Form.ФормаДокумента" id="9fda39d1-94ee-4f81-80d3-c1ac4d61f1bb" configVersion="b6ddf77ba553864b9ccaf4762cf43e8900000000"/>
 		<Metadata name="Document.Операция.Form.ФормаДокумента.Form" id="9fda39d1-94ee-4f81-80d3-c1ac4d61f1bb.0" configVersion="ca04291bbd355c4f94604a87208d5dfa00000000"/>
-		<Metadata name="Document.ПриходнаяНакладная" id="175cf957-1c89-437e-9199-36da6ca20619" configVersion="fae7db3b3e0017489f71e567ccc86a3700000000">
+		<Metadata name="Document.ПриходнаяНакладная" id="175cf957-1c89-437e-9199-36da6ca20619" configVersion="d23a537e1b77e345ad2c136145f857ef00000000">
 			<Metadata name="Document.ПриходнаяНакладная.TabularSection.СписокНоменклатуры.Attribute.Цена" id="2319fa3c-bf71-4758-a35f-dedc6985a078"/>
 			<Metadata name="Document.ПриходнаяНакладная.TabularSection.СписокНоменклатуры.Attribute.Номенклатура" id="4de85f84-f873-48bc-a8ae-c9ec50fa1410"/>
 			<Metadata name="Document.ПриходнаяНакладная.TabularSection.СписокНоменклатуры" id="61de37cd-6504-48b5-be12-5d1306cec4a0"/>
@@ -150,8 +154,10 @@
 			<Metadata name="Document.ПриходнаяНакладная.Attribute.СуммаПоДокументу" id="7af094e4-c3a6-4767-92fc-65ac7166df22"/>
 			<Metadata name="Document.ПриходнаяНакладная.TabularSection.СписокНоменклатуры.Attribute.Сумма" id="d7892c59-cb53-41cc-a074-8ac7a68874f3"/>
 		</Metadata>
-		<Metadata name="Document.ПриходнаяНакладная.ObjectModule" id="175cf957-1c89-437e-9199-36da6ca20619.0" configVersion="90351b605fcc594e9d1ed63bcc5fa4c500000000"/>
-		<Metadata name="Document.РасходнаяНакладная" id="b47e0747-d6c8-4ee8-bb39-df98a7a38912" configVersion="a44bd5ed756a43469a14eecffb977cd800000000">
+		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаДокумента" id="d3c68131-6250-43a5-9922-026e25803077" configVersion="6cc33e47e3f9f04783e202703110ef3300000000"/>
+		<Metadata name="Document.ПриходнаяНакладная.Form.ФормаДокумента.Form" id="d3c68131-6250-43a5-9922-026e25803077.0" configVersion="dc9302d7458b314e90c7702582d6bc4300000000"/>
+		<Metadata name="Document.ПриходнаяНакладная.ObjectModule" id="175cf957-1c89-437e-9199-36da6ca20619.0" configVersion="01f79417dc6d154eaa3b6d3066b7754400000000"/>
+		<Metadata name="Document.РасходнаяНакладная" id="b47e0747-d6c8-4ee8-bb39-df98a7a38912" configVersion="39b5b1d088e71a488abb9f7f929e690f00000000">
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.СписокНоменклатуры.Attribute.Количество" id="05b3711e-22c8-4ac2-a22f-2803fb404d2d"/>
 			<Metadata name="Document.РасходнаяНакладная.Attribute.ЗаказПокупателя" id="23d46734-474d-46c0-bbf8-5a203debd08a"/>
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.СписокНоменклатуры.Attribute.Сумма" id="443d6a98-2312-4ca8-b789-5463720c6ddd"/>
@@ -162,7 +168,7 @@
 		</Metadata>
 		<Metadata name="Document.РасходнаяНакладная.Help" id="b47e0747-d6c8-4ee8-bb39-df98a7a38912.1" configVersion="509aa0dfcba6384ea531f66164ed0d1000000000"/>
 		<Metadata name="Document.РасходнаяНакладная.ManagerModule" id="b47e0747-d6c8-4ee8-bb39-df98a7a38912.2" configVersion="a922ea2c5ef8a44b9e5e8bb902a3663000000000"/>
-		<Metadata name="Document.РасходнаяНакладная.ObjectModule" id="b47e0747-d6c8-4ee8-bb39-df98a7a38912.0" configVersion="84d256c6c86ca741b3d7fadf20946ea900000000"/>
+		<Metadata name="Document.РасходнаяНакладная.ObjectModule" id="b47e0747-d6c8-4ee8-bb39-df98a7a38912.0" configVersion="d47d11d3971ce446a5846a142af5232400000000"/>
 		<Metadata name="Enum.ВидыНоменклатуры" id="3d720e22-c9fc-4720-b899-5dc754c61975" configVersion="4c638c433766d547993ee6641721826b00000000">
 			<Metadata name="Enum.ВидыНоменклатуры.EnumValue.Услуга" id="0326632b-5dd3-45ff-aab5-b83ec8d68df8"/>
 			<Metadata name="Enum.ВидыНоменклатуры.EnumValue.Товар" id="04a105ac-2ad1-4101-9d50-5e4b2379ee85"/>
@@ -208,11 +214,17 @@
 		<Metadata name="Report.АнализНачислений.Template.ОсновнаяСхемаКомпоновкиДанных" id="be3386e8-c0fc-4c67-aa8e-8f5096a7f8ff" configVersion="340feab511a4e849854f6bf6cca4a79700000000"/>
 		<Metadata name="Report.АнализНачислений.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="be3386e8-c0fc-4c67-aa8e-8f5096a7f8ff.0" configVersion="3d5d0003187ad042b0c05f90ec9063a800000000"/>
 		<Metadata name="Report.АнализНедоотгруженныхЗаказовПокупателей" id="3283fafb-373f-4be6-bf67-35d359f8ac9f" configVersion="3fda5b1fe2293346877c5054c98f127200000000"/>
-		<Metadata name="Report.АнализНедоотгруженныхЗаказовПокупателей.Template.ОсновнаяСхемаКомпоновкиДанных" id="3abd2b18-5520-40fb-a6e8-82d9303e3828" configVersion="0b4a179ebf3e414f869a33a4af60a0db00000000"/>
-		<Metadata name="Report.АнализНедоотгруженныхЗаказовПокупателей.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="3abd2b18-5520-40fb-a6e8-82d9303e3828.0" configVersion="68b36420302a054ea80d69bd2f34cf6200000000"/>
+		<Metadata name="Report.АнализНедоотгруженныхЗаказовПокупателей.Template.ОсновнаяСхемаКомпоновкиДанных" id="3abd2b18-5520-40fb-a6e8-82d9303e3828" configVersion="ef226bca31a0524f8b35dfeaec58acb300000000"/>
+		<Metadata name="Report.АнализНедоотгруженныхЗаказовПокупателей.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="3abd2b18-5520-40fb-a6e8-82d9303e3828.0" configVersion="f572e173c83d6a4c915aff5ffa0fe9e300000000"/>
 		<Metadata name="Report.ОтчетПоПродажам" id="6765516c-f0c2-4d28-9645-66122373b453" configVersion="d56de7b4b8794240a9c948a117657d1700000000"/>
 		<Metadata name="Report.ОтчетПоПродажам.Template.ОсновнаяСхемаКомпоновкиДанных" id="1979e35d-4d93-4775-ab51-2814ed337db6" configVersion="a18202c6b7b7f74ba3d8d3954f1bf89a00000000"/>
 		<Metadata name="Report.ОтчетПоПродажам.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="1979e35d-4d93-4775-ab51-2814ed337db6.0" configVersion="c407e08e679b6844940ad4c342b17b8300000000"/>
+		<Metadata name="Subsystem.БухгалтерскийУчет" id="f57cfb9c-cbbc-4e1d-87de-021268ddc22c" configVersion="a83a105b5c9d87408386b32f13decb1100000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет" id="f45c2219-9dc9-4b14-8877-4c9c24590b5c" configVersion="b670da7ddeb7c446b69dc49d58d8766b00000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Документы" id="dbd79462-641d-4b6f-99db-5e3324b8164b" configVersion="4963cfd6d9d95c49ba77eefebb221b7200000000"/>
+		<Metadata name="Subsystem.ОперативныйУчет.Subsystem.Справочник" id="bd809f6d-b8c8-4c5b-8818-c420c0fdd6de" configVersion="69b9fd3d6cfeb5429429411e766e5c0e00000000"/>
+		<Metadata name="Subsystem.Прочие" id="8bcd3024-8cc1-4fa2-841e-a0a4c4580822" configVersion="cba8fc20c75c7a4cbc81ea7692f8f8c600000000"/>
+		<Metadata name="Subsystem.РасчетЗарплаты" id="8e0934c4-e17f-4ab8-9bab-d60a492b3cb2" configVersion="3fc12d255e81c942b3e5fa11a94f72a500000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
 @@@@@Конец_файла:\ConfigDumpInfo.xml
@@ -444,6 +456,10 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>ОперативныйУчет</Subsystem>
+			<Subsystem>БухгалтерскийУчет</Subsystem>
+			<Subsystem>РасчетЗарплаты</Subsystem>
+			<Subsystem>Прочие</Subsystem>
 			<CommonPicture>ОперативныйУчет</CommonPicture>
 			<CommonPicture>БухгалтерскийУчет</CommonPicture>
 			<CommonPicture>Расчеты</CommonPicture>
@@ -997,11 +1013,11 @@
 		<ChildObjects>
 			<Resource uuid="581d783c-f68f-457b-a185-0d6892bbc7c7">
 				<Properties>
-					<Name>Количество</Name>
+					<Name>Закуплено</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Количество</v8:content>
+							<v8:content>Закуплено</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1050,6 +1066,86 @@
 						<v8:NumberQualifiers>
 							<v8:Digits>16</v8:Digits>
 							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Resource>
+			<Resource uuid="2dbd8862-fb7c-45e5-838a-0d66d91f1453">
+				<Properties>
+					<Name>Резерв</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Резерв</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<FullTextSearch>Use</FullTextSearch>
+				</Properties>
+			</Resource>
+			<Resource uuid="33274824-7e37-4768-a04e-35f7c2d59f62">
+				<Properties>
+					<Name>Отгружено</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отгружено</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
 					</Type>
@@ -6484,7 +6580,7 @@
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm/>
+			<DefaultObjectForm>Document.ЗаказПокупателя.Form.ФормаДокумента</DefaultObjectForm>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -6496,7 +6592,7 @@
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
 			<RegisterRecords>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ЗаказыПокупателей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиНоменклатуры</xr:Item>
 			</RegisterRecords>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
@@ -6559,6 +6655,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="39c6b8c8-0b0a-4414-989d-68fde8e46c99">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ЗаказПокупателя.СписокНоменклатуры" category="TabularSection">
@@ -7547,7 +7644,7 @@
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm/>
+			<DefaultObjectForm>Document.ПриходнаяНакладная.Form.ФормаДокумента</DefaultObjectForm>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -7623,6 +7720,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="61de37cd-6504-48b5-be12-5d1306cec4a0">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ПриходнаяНакладная.СписокНоменклатуры" category="TabularSection">
@@ -8369,24 +8467,163 @@
 @@@@@Конец_файла:\Documents\РасходнаяНакладная.xml
 @@@@@Начало_файла:\Documents\ЗаказПокупателя\Ext\ObjectModule.bsl
 Процедура ОбработкаПроведения(Отказ, Режим)
-	//{{__КОНСТРУКТОР_ДВИЖЕНИЙ_РЕГИСТРОВ
-	// Данный фрагмент построен конструктором.
-	// При повторном использовании конструктора, внесенные вручную изменения будут утеряны!!!
-
-	// регистр ЗаказыПокупателей Приход
-	Движения.ЗаказыПокупателей.Записывать = Истина;
+	Движения.ОстаткиНоменклатуры.Записывать = Истина;
+	
 	Для Каждого ТекСтрокаСписокНоменклатуры Из СписокНоменклатуры Цикл
-		Движение = Движения.ЗаказыПокупателей.Добавить();
-		Движение.ВидДвижения = ВидДвиженияНакопления.Приход;
+		Движение = Движения.ОстаткиНоменклатуры.ДобавитьПриход();
 		Движение.Период = Дата;
 		Движение.Заказ = Ссылка;
 		Движение.Номенклатура = ТекСтрокаСписокНоменклатуры.Номенклатура;
-		Движение.Количество = ТекСтрокаСписокНоменклатуры.Количество;
+		Движение.Резерв = ТекСтрокаСписокНоменклатуры.Количество;
 	КонецЦикла;
-
-	//}}__КОНСТРУКТОР_ДВИЖЕНИЙ_РЕГИСТРОВ
+    
 КонецПроцедуры
 @@@@@Конец_файла:\Documents\ЗаказПокупателя\Ext\ObjectModule.bsl
+@@@@@Начало_файла:\Documents\ЗаказПокупателя\Forms\ФормаДокумента.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Form uuid="b59aca66-9497-4060-a81e-6083017cc715">
+		<Properties>
+			<Name>ФормаДокумента</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Форма документа</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<FormType>Managed</FormType>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<UsePurposes>
+				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
+				<v8:Value xsi:type="app:ApplicationUsePurpose">MobilePlatformApplication</v8:Value>
+			</UsePurposes>
+		</Properties>
+	</Form>
+</MetaDataObject>
+@@@@@Конец_файла:\Documents\ЗаказПокупателя\Forms\ФормаДокумента.xml
+@@@@@Начало_файла:\Documents\ЗаказПокупателя\Forms\ФормаДокумента\Ext\Form.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="СуммаПоДокументу" id="7">
+			<DataPath>Объект.СуммаПоДокументу</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СуммаПоДокументуКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="СуммаПоДокументуРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<Table name="СписокНоменклатуры" id="10">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.СписокНоменклатуры</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="СписокНоменклатурыКонтекстноеМеню" id="11"/>
+			<AutoCommandBar name="СписокНоменклатурыКоманднаяПанель" id="12"/>
+			<ExtendedTooltip name="СписокНоменклатурыРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="СписокНоменклатурыСтрокаПоиска" id="14">
+				<AdditionSource>
+					<Item>СписокНоменклатуры</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокНоменклатурыСтрокаПоискаКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="СписокНоменклатурыСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокНоменклатурыСостояниеПросмотра" id="17">
+				<AdditionSource>
+					<Item>СписокНоменклатуры</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокНоменклатурыСостояниеПросмотраКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="СписокНоменклатурыСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокНоменклатурыУправлениеПоиском" id="20">
+				<AdditionSource>
+					<Item>СписокНоменклатуры</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокНоменклатурыУправлениеПоискомКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="СписокНоменклатурыУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="СписокНоменклатурыНомерСтроки" id="23">
+					<DataPath>Объект.СписокНоменклатуры.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокНоменклатурыНомерСтрокиКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="СписокНоменклатурыНомерСтрокиРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<InputField name="СписокНоменклатурыНоменклатура" id="26">
+					<DataPath>Объект.СписокНоменклатуры.Номенклатура</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокНоменклатурыНоменклатураКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="СписокНоменклатурыНоменклатураРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="СписокНоменклатурыКоличество" id="29">
+					<DataPath>Объект.СписокНоменклатуры.Количество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокНоменклатурыКоличествоКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="СписокНоменклатурыКоличествоРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="СписокНоменклатурыЦена" id="32">
+					<DataPath>Объект.СписокНоменклатуры.Цена</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокНоменклатурыЦенаКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="СписокНоменклатурыЦенаРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="СписокНоменклатурыСумма" id="35">
+					<DataPath>Объект.СписокНоменклатуры.Сумма</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокНоменклатурыСуммаКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="СписокНоменклатурыСуммаРасширеннаяПодсказка" id="37"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ЗаказПокупателя</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>AccumulationRegister.ЗаказыПокупателей.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
+</Form>
+@@@@@Конец_файла:\Documents\ЗаказПокупателя\Forms\ФормаДокумента\Ext\Form.xml
 @@@@@Начало_файла:\Documents\КорректировкаСебестоимости\Ext\ObjectModule.bsl
 Процедура ОбработкаПроведения(Отказ, РежимПроведения)
 	
@@ -8710,33 +8947,33 @@
 КонецПроцедуры
 @@@@@Конец_файла:\Documents\Операция\Forms\ФормаДокумента\Ext\Form\Module.bsl
 @@@@@Начало_файла:\Documents\ПриходнаяНакладная\Ext\ObjectModule.bsl
-Процедура ОбработкаЗаполнения(ДанныеЗаполнения, СтандартнаяОбработка)
-	//{{__КОНСТРУКТОР_ВВОД_НА_ОСНОВАНИИ
-	// Данный фрагмент построен конструктором.
-	// При повторном использовании конструктора, внесенные вручную изменения будут утеряны!!!
-	Если ТипЗнч(ДанныеЗаполнения) = Тип("ДокументСсылка.ЗаказПокупателя") Тогда
-		// Заполнение шапки
-		СуммаПоДокументу = ДанныеЗаполнения.СуммаПоДокументу;
-		Для Каждого ТекСтрокаСписокНоменклатуры Из ДанныеЗаполнения.СписокНоменклатуры Цикл
-			НоваяСтрока = СписокНоменклатуры.Добавить();
-			НоваяСтрока.Количество = ТекСтрокаСписокНоменклатуры.Количество;
-			НоваяСтрока.Номенклатура = ТекСтрокаСписокНоменклатуры.Номенклатура;
-			НоваяСтрока.Сумма = ТекСтрокаСписокНоменклатуры.Сумма;
-			НоваяСтрока.Цена = ТекСтрокаСписокНоменклатуры.Цена;
-		КонецЦикла;
-	КонецЕсли;
-	//}}__КОНСТРУКТОР_ВВОД_НА_ОСНОВАНИИ
-КонецПроцедуры
+//Процедура ОбработкаЗаполнения(ДанныеЗаполнения, СтандартнаяОбработка)
+//	//{{__КОНСТРУКТОР_ВВОД_НА_ОСНОВАНИИ
+//	// Данный фрагмент построен конструктором.
+//	// При повторном использовании конструктора, внесенные вручную изменения будут утеряны!!!
+//	Если ТипЗнч(ДанныеЗаполнения) = Тип("ДокументСсылка.ЗаказПокупателя") Тогда
+//		// Заполнение шапки
+//		СуммаПоДокументу = ДанныеЗаполнения.СуммаПоДокументу;
+//		Для Каждого ТекСтрокаСписокНоменклатуры Из ДанныеЗаполнения.СписокНоменклатуры Цикл
+//			НоваяСтрока = СписокНоменклатуры.Добавить();
+//			НоваяСтрока.Количество = ТекСтрокаСписокНоменклатуры.Количество;
+//			НоваяСтрока.Номенклатура = ТекСтрокаСписокНоменклатуры.Номенклатура;
+//			НоваяСтрока.Сумма = ТекСтрокаСписокНоменклатуры.Сумма;
+//			НоваяСтрока.Цена = ТекСтрокаСписокНоменклатуры.Цена;
+//		КонецЦикла;
+//	КонецЕсли;
+//	//}}__КОНСТРУКТОР_ВВОД_НА_ОСНОВАНИИ
+//КонецПроцедуры
 
 
 Процедура ОбработкаПроведения(Отказ, Режим)
 	
 	
-	    //БУ
-		Движения.Управленческий.Записывать = Истина;
+	//БУ
+	Движения.Управленческий.Записывать = Истина;
 	Движения.Управленческий.Записать();
 	
-		Для Каждого ТекСтрокаСписокНоменклатуры Из СписокНоменклатуры Цикл
+	Для Каждого ТекСтрокаСписокНоменклатуры Из СписокНоменклатуры Цикл
 		Движение = Движения.Управленческий.Добавить();
 		Движение.СчетДт = ПланыСчетов.Управленческий.Товары;
 		Движение.СчетКт = ПланыСчетов.Управленческий.Поставщики;
@@ -8745,19 +8982,13 @@
 		Движение.КоличествоДт = ТекСтрокаСписокНоменклатуры.Количество;
 		Движение.СубконтоДт[ПланыВидовХарактеристик.ВидыСубконто.Номенклатура] = ТекСтрокаСписокНоменклатуры.Номенклатура;
 	КонецЦикла;
-
-
-	
 	
 	//ОУ
 	
-	Движения.ОстаткиНоменклатуры.Записывать = Истина;
+	Движения.ОстаткиНоменклатуры.Очистить();
 	Движения.ОстаткиНоменклатуры.Записать();
+	Движения.ОстаткиНоменклатуры.Записывать = Истина;
 	
-		//{{КОНСТРУКТОР_ЗАПРОСА_С_ОБРАБОТКОЙ_РЕЗУЛЬТАТА
-	// Данный фрагмент построен конструктором.
-	// При повторном использовании конструктора, внесенные вручную изменения будут утеряны!!!
-
 	Запрос = Новый Запрос;
 	Запрос.Текст = 
 		"ВЫБРАТЬ
@@ -8780,10 +9011,10 @@
 		|	ВТ.Количество КАК КоличествоВДокументе,
 		|	ВТ.Сумма КАК СуммаВДокументе,
 		|	ЗаказыПокупателейОстатки.Заказ,
-		|	ЕСТЬNULL(ЗаказыПокупателейОстатки.КоличествоОстаток, 0) КАК КоличествоОстаток
+		|	ЕСТЬNULL(ЗаказыПокупателейОстатки.РезервОстаток, 0) КАК РезервОстаток
 		|ИЗ
 		|	ВТ КАК ВТ
-		|		ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.ЗаказыПокупателей.Остатки(
+		|		ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.ОстаткиНоменклатуры.Остатки(
 		|				&МоментВремени,
 		|				Номенклатура В
 		|					(ВЫБРАТЬ
@@ -8797,51 +9028,52 @@
 		|ИТОГИ
 		|	МАКСИМУМ(КоличествоВДокументе),
 		|	СУММА(СуммаВДокументе),
-		|	СУММА(КоличествоОстаток)
+		|	СУММА(РезервОстаток)
 		|ПО
 		|	Номенклатура";
 
+	Блокировка = Новый БлокировкаДанных;
+	ЭлементБлокировки = Блокировка.Добавить("РегистрНакопления.ОстаткиНоменклатуры");
+	ЭлементБлокировки.Режим = РежимБлокировкиДанных.Исключительный;
+	ЭлементБлокировки.ИсточникДанных = СписокНоменклатуры;
+	ЭлементБлокировки.ИспользоватьИзИсточникаДанных("Номенклатура","Номенклатура");
+	Блокировка.Заблокировать();
+	
 	Запрос.УстановитьПараметр("Ссылка", Ссылка);
-		Запрос.УстановитьПараметр("МоментВремени", МоментВремени());
+	МоментВремени = ?(Режим = РежимПроведенияДокумента.Оперативный,Неопределено,Новый Граница(МоментВремени(),ВидГраницы.Включая));
+	Запрос.УстановитьПараметр("МоментВремени", МоментВремени);
 
-	Результат = Запрос.Выполнить();
-
-	ВыборкаНоменклатура = Результат.Выбрать(ОбходРезультатаЗапроса.ПоГруппировкам);
+	ВыборкаНоменклатура = Запрос.Выполнить().Выбрать(ОбходРезультатаЗапроса.ПоГруппировкам);
 
 	Пока ВыборкаНоменклатура.Следующий() Цикл
 		
-		КоличествоБезЗаказа = ВыборкаНоменклатура.КоличествоВДокументе - ВыборкаНоменклатура.КоличествоОстаток;
-		
-		Если КоличествоБезЗаказа > 0 Тогда
-						
-			Движение = Движения.ОстаткиНоменклатуры.Добавить();
-			Движение.ВидДвижения = ВидДвиженияНакопления.Приход;
+		Если ВыборкаНоменклатура.КоличествоВДокументе > ВыборкаНоменклатура.РезервОстаток Тогда
+			
+			// Формируем приход свободного остатка
+			КСписанию = ВыборкаНоменклатура.КоличествоВДокументе - ВыборкаНоменклатура.РезервОстаток;
+			Движение = Движения.ОстаткиНоменклатуры.ДобавитьПриход();
 			Движение.Период = Дата;
 			Движение.Номенклатура = ВыборкаНоменклатура.Номенклатура;
 			Движение.Заказ = Документы.ЗаказПокупателя.ПустаяСсылка();
-			Движение.Количество = КоличествоБезЗаказа;
-			Движение.Сумма = КоличествоБезЗаказа * (ВыборкаНоменклатура.СуммаВДокументе / ВыборкаНоменклатура.КоличествоВДокументе) ;
+			Движение.Закуплено = КСписанию;
+			Движение.Сумма = КСписанию * (ВыборкаНоменклатура.СуммаВДокументе / ВыборкаНоменклатура.КоличествоВДокументе) ;
+			ОсталосьСписать = ВыборкаНоменклатура.РезервОстаток;
 			
-		КонецЕсли;
-		
-		ОсталосьСписать =  ВыборкаНоменклатура.КоличествоВДокументе;
-		
-		Если ВыборкаНоменклатура.КоличествоОстаток  = 0 Тогда
-			Продолжить;
+		Иначе
+			ОсталосьСписать = ВыборкаНоменклатура.КоличествоВДокументе;
 		КонецЕсли;
 		
 		ВыборкаДетальныеЗаписи = ВыборкаНоменклатура.Выбрать();
 		
-		Пока ВыборкаДетальныеЗаписи.Следующий() Цикл
+		Пока ВыборкаДетальныеЗаписи.Следующий() И ОсталосьСписать>0 Цикл
 			
-			КСписанию = Мин(ВыборкаДетальныеЗаписи.КоличествоОстаток, ОсталосьСписать);
+			КСписанию = Мин(ВыборкаДетальныеЗаписи.РезервОстаток, ОсталосьСписать);
 			
-			Движение = Движения.ОстаткиНоменклатуры.Добавить();
-			Движение.ВидДвижения = ВидДвиженияНакопления.Приход;
+			Движение = Движения.ОстаткиНоменклатуры.ДобавитьПриход();
 			Движение.Период = Дата;
 			Движение.Номенклатура = ВыборкаДетальныеЗаписи.Номенклатура;
 			Движение.Заказ = ВыборкаДетальныеЗаписи.Заказ;
-			Движение.Количество = КСписанию;
+			Движение.Закуплено = КСписанию;
 			Движение.Сумма = КСписанию * (ВыборкаДетальныеЗаписи.СуммаВДокументе / ВыборкаДетальныеЗаписи.КоличествоВДокументе) ;
 			
 			ОсталосьСписать = ОсталосьСписать - КСписанию;
@@ -8854,6 +9086,151 @@
 	
 КонецПроцедуры
 @@@@@Конец_файла:\Documents\ПриходнаяНакладная\Ext\ObjectModule.bsl
+@@@@@Начало_файла:\Documents\ПриходнаяНакладная\Forms\ФормаДокумента.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Form uuid="d3c68131-6250-43a5-9922-026e25803077">
+		<Properties>
+			<Name>ФормаДокумента</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Форма документа</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<FormType>Managed</FormType>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<UsePurposes>
+				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
+				<v8:Value xsi:type="app:ApplicationUsePurpose">MobilePlatformApplication</v8:Value>
+			</UsePurposes>
+		</Properties>
+	</Form>
+</MetaDataObject>
+@@@@@Конец_файла:\Documents\ПриходнаяНакладная\Forms\ФормаДокумента.xml
+@@@@@Начало_файла:\Documents\ПриходнаяНакладная\Forms\ФормаДокумента\Ext\Form.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="СуммаПоДокументу" id="7">
+			<DataPath>Объект.СуммаПоДокументу</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СуммаПоДокументуКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="СуммаПоДокументуРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<Table name="СписокНоменклатуры" id="10">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.СписокНоменклатуры</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="СписокНоменклатурыКонтекстноеМеню" id="11"/>
+			<AutoCommandBar name="СписокНоменклатурыКоманднаяПанель" id="12"/>
+			<ExtendedTooltip name="СписокНоменклатурыРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="СписокНоменклатурыСтрокаПоиска" id="14">
+				<AdditionSource>
+					<Item>СписокНоменклатуры</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокНоменклатурыСтрокаПоискаКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="СписокНоменклатурыСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокНоменклатурыСостояниеПросмотра" id="17">
+				<AdditionSource>
+					<Item>СписокНоменклатуры</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокНоменклатурыСостояниеПросмотраКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="СписокНоменклатурыСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокНоменклатурыУправлениеПоиском" id="20">
+				<AdditionSource>
+					<Item>СписокНоменклатуры</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокНоменклатурыУправлениеПоискомКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="СписокНоменклатурыУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="СписокНоменклатурыНомерСтроки" id="23">
+					<DataPath>Объект.СписокНоменклатуры.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокНоменклатурыНомерСтрокиКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="СписокНоменклатурыНомерСтрокиРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<InputField name="СписокНоменклатурыНоменклатура" id="26">
+					<DataPath>Объект.СписокНоменклатуры.Номенклатура</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокНоменклатурыНоменклатураКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="СписокНоменклатурыНоменклатураРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="СписокНоменклатурыКоличество" id="29">
+					<DataPath>Объект.СписокНоменклатуры.Количество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокНоменклатурыКоличествоКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="СписокНоменклатурыКоличествоРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="СписокНоменклатурыЦена" id="32">
+					<DataPath>Объект.СписокНоменклатуры.Цена</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокНоменклатурыЦенаКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="СписокНоменклатурыЦенаРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="СписокНоменклатурыСумма" id="35">
+					<DataPath>Объект.СписокНоменклатуры.Сумма</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокНоменклатурыСуммаКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="СписокНоменклатурыСуммаРасширеннаяПодсказка" id="37"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ПриходнаяНакладная</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>AccountingRegister.Управленческий.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
+</Form>
+@@@@@Конец_файла:\Documents\ПриходнаяНакладная\Forms\ФормаДокумента\Ext\Form.xml
 @@@@@Начало_файла:\Documents\РасходнаяНакладная\Ext\ObjectModule.bsl
 Процедура ОбработкаЗаполнения(ДанныеЗаполнения, СтандартнаяОбработка)
 	//{{__КОНСТРУКТОР_ВВОД_НА_ОСНОВАНИИ
@@ -8879,10 +9256,6 @@
 	//БУ
 	Движения.Управленческий.Записывать = Истина;
 	Движения.Управленческий.Записать();
-
-	//{{КОНСТРУКТОР_ЗАПРОСА_С_ОБРАБОТКОЙ_РЕЗУЛЬТАТА
-	// Данный фрагмент построен конструктором.
-	// При повторном использовании конструктора, внесенные вручную изменения будут утеряны!!!
 
 	Запрос = Новый Запрос;
 	Запрос.Текст = 
@@ -8919,9 +9292,7 @@
 
 	Запрос.УстановитьПараметр("Ссылка", Ссылка);
 	Запрос.УстановитьПараметр("МоментВремени", МоментВремени());
-
-
-	Результат = Запрос.Выполнить();
+    Результат = Запрос.Выполнить();
 
 	ВыборкаДетальныеЗаписи = Результат.Выбрать();
 	
@@ -8939,20 +9310,27 @@
 	
 	//}}КОНСТРУКТОР_ЗАПРОСА_С_ОБРАБОТКОЙ_РЕЗУЛЬТАТА
 	
-	
-	
-	
-	
 	//ОУ
+	Движения.ЗаказыПокупателей.Очистить();
+	Движения.ЗаказыПокупателей.Записать();
+	Движения.ОстаткиНоменклатуры.Очистить();
+	Движения.ОстаткиНоменклатуры.Записать();
+		
 	Движения.ОстаткиНоменклатуры.Записывать = Истина;
 	Движения.ЗаказыПокупателей.Записывать = Истина;
-	Движения.ЗаказыПокупателей.Записать();
-	Движения.ОстаткиНоменклатуры.Записать();
 	
+	Блокировка = Новый БлокировкаДанных;
+
+	ЭлементБлокировки = Блокировка.Добавить("РегистрНакопления.ОстаткиНоменклатуры");
+	ЭлементБлокировки.Режим = РежимБлокировкиДанных.Исключительный;
+	ЭлементБлокировки.ИсточникДанных = Ссылка.СписокНоменклатуры;	
+	ЭлементБлокировки.ИспользоватьИзИсточникаДанных("Номенклатура","Номенклатура");
 	
-	//{{КОНСТРУКТОР_ЗАПРОСА_С_ОБРАБОТКОЙ_РЕЗУЛЬТАТА
-	// Данный фрагмент построен конструктором.
-	// При повторном использовании конструктора, внесенные вручную изменения будут утеряны!!!
+	ЭлементБлокировки = Блокировка.Добавить("РегистрНакопления.ОстаткиНоменклатуры");
+	ЭлементБлокировки.Режим = РежимБлокировкиДанных.Исключительный;
+	ЭлементБлокировки.УстановитьЗначение("Заказ",ЗаказПокупателя);
+	
+	Блокировка.Заблокировать();
 	
 	Запрос = Новый Запрос;
 	Запрос.Текст = 
@@ -9002,15 +9380,14 @@
 	|	Номенклатура";
 	
 	Запрос.УстановитьПараметр("Заказ", ЗаказПокупателя);
+	
+	МоментВремени = ?(Режим = РежимПроведенияДокумента.Оперативный,Неопределено,Новый Граница(МоментВремени(),ВидГраницы.Включая));	
 	Запрос.УстановитьПараметр("МоментВремени", МоментВремени());
 	Запрос.УстановитьПараметр("Ссылка", Ссылка);
 	
-	Результат = Запрос.Выполнить();
-	
-	ВыборкаНоменклатура = Результат.Выбрать(ОбходРезультатаЗапроса.ПоГруппировкам);
+	ВыборкаНоменклатура = Запрос.Выполнить().Выбрать(ОбходРезультатаЗапроса.ПоГруппировкам);
 	
 	Пока ВыборкаНоменклатура.Следующий() Цикл
-
 		
 		Если ВыборкаНоменклатура.КоличествоВДокументе > ВыборкаНоменклатура.КоличествоОстаток Тогда
 			Отказ = Истина;
@@ -9023,31 +9400,22 @@
 			Продолжить;
 		КонецЕсли;
 		
-		ОсталосьСписать = ВыборкаНоменклатура.КоличествоВДокументе;
 		ЦенаЗаЕдиницу = ВыборкаНоменклатура.СуммаОстаток / ВыборкаНоменклатура.КоличествоОстаток; 
 		
+		ОсталосьСписать = ВыборкаНоменклатура.КоличествоВДокументе;
 		ВыборкаДетальныеЗаписи = ВыборкаНоменклатура.Выбрать();
 		
-		Пока ВыборкаДетальныеЗаписи.Следующий() Цикл
+		Пока ВыборкаДетальныеЗаписи.Следующий() И ОсталосьСписать>0 Цикл
 			
 			КСписанию = Мин(ОсталосьСписать, ВыборкаДетальныеЗаписи.КоличествоОстаток);
 			СуммаСписания = КСписанию * ЦенаЗаЕдиницу;
 			
-			Движение = Движения.ОстаткиНоменклатуры.Добавить();
-			Движение.ВидДвижения = ВидДвиженияНакопления.Расход;
+			Движение = Движения.ОстаткиНоменклатуры.ДобавитьПриход();
 			Движение.Период = Дата;
 			Движение.Номенклатура = ВыборкаДетальныеЗаписи.Номенклатура;
 			Движение.Заказ = ВыборкаДетальныеЗаписи.Заказ;
-			Движение.Количество = КСписанию;
+			Движение.Отгружено = КСписанию;
 			Движение.Сумма = СуммаСписания;
-			
-			
-			Движение = Движения.ЗаказыПокупателей.Добавить();
-			Движение.ВидДвижения = ВидДвиженияНакопления.Расход;
-			Движение.Период = Дата;
-			Движение.Заказ = ЗаказПокупателя;
-			Движение.Номенклатура = ВыборкаДетальныеЗаписи.Номенклатура;
-			Движение.Количество = КСписанию;
 			
 			ОсталосьСписать = ОсталосьСписать - КСписанию;
 			
@@ -10878,37 +11246,53 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Закуплено</dataPath>
-			<field>Закуплено</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Номенклатура</dataPath>
+			<dataPath>Оборудование</dataPath>
 			<field>Номенклатура</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Отгружено</dataPath>
 			<field>Отгружено</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отгружено</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ПоЗаказу</dataPath>
 			<field>ПоЗаказу</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>По заказу</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Закуплено</dataPath>
+			<field>Закуплено</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закуплено</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ЗаказыПокупателейОбороты.Заказ,
-	ЗаказыПокупателейОбороты.Номенклатура,
-	ЗаказыПокупателейОбороты.КоличествоПриход КАК ПоЗаказу,
-	ОстаткиНоменклатурыОбороты.КоличествоПриход КАК Закуплено,
-	ЗаказыПокупателейОбороты.КоличествоРасход КАК Отгружено
+	ОстаткиНоменклатурыОстатки.Заказ,
+	ОстаткиНоменклатурыОстатки.Номенклатура,
+	ОстаткиНоменклатурыОстатки.РезервОстаток КАК ПоЗаказу,
+	ОстаткиНоменклатурыОстатки.ЗакупленоОстаток КАК Закуплено,
+	ОстаткиНоменклатурыОстатки.ОтгруженоОстаток КАК Отгружено
 ИЗ
-	РегистрНакопления.ЗаказыПокупателей.Обороты(, , , ) КАК ЗаказыПокупателейОбороты
-		ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.ОстаткиНоменклатуры.Обороты КАК ОстаткиНоменклатурыОбороты
-		ПО ЗаказыПокупателейОбороты.Заказ = ОстаткиНоменклатурыОбороты.Заказ
-			И ЗаказыПокупателейОбороты.Номенклатура = ОстаткиНоменклатурыОбороты.Номенклатура</query>
+	РегистрНакопления.ОстаткиНоменклатуры.Остатки КАК ОстаткиНоменклатурыОстатки</query>
 	</dataSet>
+	<totalField>
+		<dataPath>ПоЗаказу</dataPath>
+		<expression>Сумма(ПоЗаказу)</expression>
+	</totalField>
 	<totalField>
 		<dataPath>Закуплено</dataPath>
 		<expression>Сумма(Закуплено)</expression>
@@ -10917,33 +11301,12 @@
 		<dataPath>Отгружено</dataPath>
 		<expression>Сумма(Отгружено)</expression>
 	</totalField>
-	<totalField>
-		<dataPath>ПоЗаказу</dataPath>
-		<expression>Сумма(ПоЗаказу)</expression>
-	</totalField>
 	<parameter>
-		<name>НачалоПериода</name>
+		<name>Период</name>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>Начало периода</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type>xs:dateTime</v8:Type>
-			<v8:DateQualifiers>
-				<v8:DateFractions>DateTime</v8:DateFractions>
-			</v8:DateQualifiers>
-		</valueType>
-		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
-		<useRestriction>false</useRestriction>
-	</parameter>
-	<parameter>
-		<name>КонецПериода</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Конец периода</v8:content>
+				<v8:content>Дата</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -10964,7 +11327,7 @@
 					<dcsset:field>Заказ</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Номенклатура</dcsset:field>
+					<dcsset:field>Оборудование</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ПоЗаказу</dcsset:field>
@@ -10978,10 +11341,11 @@
 			</dcsset:selection>
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:use>false</dcscor:use>
-					<dcscor:parameter>КонецПериода</dcscor:parameter>
-					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
-					<dcsset:userSettingID>cb3e7856-ad54-4f1d-a144-24b361b5c3f5</dcsset:userSettingID>
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>23918488-ebcc-41a5-9f7f-92d04a599258</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:order>
@@ -10992,14 +11356,21 @@
 			</dcsset:order>
 			<dcsset:outputParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>РасположениеИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
 					<dcscor:value xsi:type="dcsset:DataCompositionAttributesPlacement">Separately</dcscor:value>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>ГоризонтальноеРасположениеОбщихИтогов</dcscor:parameter>
 					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
 					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
 				</dcscor:item>
@@ -11029,7 +11400,7 @@
 				<dcsset:item xsi:type="dcsset:StructureItemGroup">
 					<dcsset:groupItems>
 						<dcsset:item xsi:type="dcsset:GroupItemField">
-							<dcsset:field>Номенклатура</dcsset:field>
+							<dcsset:field>Оборудование</dcsset:field>
 							<dcsset:groupType>Items</dcsset:groupType>
 							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
@@ -11042,16 +11413,6 @@
 					<dcsset:selection>
 						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 					</dcsset:selection>
-					<dcsset:outputParameters>
-						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-							<dcscor:parameter>РасположениеПолейГруппировки</dcscor:parameter>
-							<dcscor:value xsi:type="dcsset:DataCompositionGroupFieldsPlacement">SeparatelyAndInTotalsOnly</dcscor:value>
-						</dcscor:item>
-						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-							<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
-							<dcscor:value xsi:type="dcsset:DataCompositionAttributesPlacement">Separately</dcscor:value>
-						</dcscor:item>
-					</dcsset:outputParameters>
 				</dcsset:item>
 			</dcsset:item>
 		</dcsset:settings>
@@ -11260,4 +11621,186 @@
 	</settingsVariant>
 </DataCompositionSchema>
 @@@@@Конец_файла:\Reports\ОтчетПоПродажам\Templates\ОсновнаяСхемаКомпоновкиДанных\Ext\Template.xml
-
+@@@@@Начало_файла:\Subsystems\БухгалтерскийУчет.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Subsystem uuid="f57cfb9c-cbbc-4e1d-87de-021268ddc22c">
+		<Properties>
+			<Name>БухгалтерскийУчет</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Бухгалтерский учет</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Валюты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Контрагенты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Подразделения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Субконто</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfAccounts.Управленческий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Операция</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.КорректировкаСебестоимости</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.СвойстваОбъектов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.ВидыСубконто</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтчетПоПродажам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccountingRegister.Управленческий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПлановаяСебестоимость</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>
+@@@@@Конец_файла:\Subsystems\БухгалтерскийУчет.xml
+@@@@@Начало_файла:\Subsystems\ОперативныйУчет.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Subsystem uuid="f45c2219-9dc9-4b14-8877-4c9c24590b5c">
+		<Properties>
+			<Name>ОперативныйУчет</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оперативный учет</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.АнализНедоотгруженныхЗаказовПокупателей</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects>
+			<Subsystem>Справочник</Subsystem>
+			<Subsystem>Документы</Subsystem>
+		</ChildObjects>
+	</Subsystem>
+</MetaDataObject>
+@@@@@Конец_файла:\Subsystems\ОперативныйУчет.xml
+@@@@@Начало_файла:\Subsystems\Прочие.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Subsystem uuid="8bcd3024-8cc1-4fa2-841e-a0a4c4580822">
+		<Properties>
+			<Name>Прочие</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прочие</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.КонсольЗапросов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗаполнениеГрафика</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РегистрАдресации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КурсыВалют</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.НазваниеОрганизации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ЮридическийАдрес</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>
+@@@@@Конец_файла:\Subsystems\Прочие.xml
+@@@@@Начало_файла:\Subsystems\РасчетЗарплаты.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Subsystem uuid="8e0934c4-e17f-4ab8-9bab-d60a492b3cb2">
+		<Properties>
+			<Name>РасчетЗарплаты</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расчет зарплаты</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ФизическиеЛица</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister.Основные</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.ОсновныеНачисления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCalculationTypes.Удержания</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CalculationRegister.Удержания</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.НачислениеЗарплаты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ГрафикиРаботы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СведенияОСотрудниках</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>
+@@@@@Конец_файла:\Subsystems\РасчетЗарплаты.xml
+@@@@@Начало_файла:\Subsystems\ОперативныйУчет\Subsystems\Документы.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Subsystem uuid="dbd79462-641d-4b6f-99db-5e3324b8164b">
+		<Properties>
+			<Name>Документы</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документы</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриходнаяНакладная</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РасходнаяНакладная</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>
+@@@@@Конец_файла:\Subsystems\ОперативныйУчет\Subsystems\Документы.xml
+@@@@@Начало_файла:\Subsystems\ОперативныйУчет\Subsystems\Справочник.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Subsystem uuid="bd809f6d-b8c8-4c5b-8818-c420c0fdd6de">
+		<Properties>
+			<Name>Справочник</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справочник</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Номенклатура</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЗначенияСвойств</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаказПокупателя</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.УчетнаяПолитика</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ЗаказыПокупателей</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>
+@@@@@Конец_файла:\Subsystems\ОперативныйУчет\Subsystems\Справочник.xml
